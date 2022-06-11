@@ -1,0 +1,17 @@
+{
+  "name": "foot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "crawler4.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node crawler4.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.11",
+    "ora": "^6.1.0"
+  }
+}
