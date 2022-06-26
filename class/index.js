@@ -88,9 +88,9 @@ class League {
   ]
   static KLeagueGrade = [
     ['蔚山现代', '全北现代'],
-    ['浦项制铁', '济州联', '大邱FC', '金泉尚武'],
-    ['FC首尔', '水原三星', '仁川联'],
-    ['江原FC', '城南FC', '水原城']
+    ['浦项制铁', '济州联队', '大邱FC', '金泉尚武'],
+    ['FC首尔', '水原三星', '仁川联队'],
+    ['江原FC', '城南足球俱乐部', '水原城']
   ]
   static EuropeLeagueGrade = [
     ['法国', '英格兰', '葡萄牙', '西班牙', '比利时', '荷兰'],
@@ -179,6 +179,7 @@ class League {
       if (hostGrade === 2 && awayGrade === 1) return '+0.25'
       if (hostGrade === 1 && awayGrade === 3) return '-1.5'
       if (hostGrade === 2 && awayGrade === 2) return '-0.25'
+      if (hostGrade === 2 && awayGrade === 3) return '-0.5'
       else return ''
     } else {
       return ''

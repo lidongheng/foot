@@ -3,19 +3,19 @@ const { dateFormat } = require('../utils')
 // 模块二：分析比赛的基础信息
 // 日职联 START --------------------------------
 // 联赛代码
-const leagueCode = '4'
+const leagueCode = '22'
 // 赛季
 const season = '2022'
 // 轮次
-const round = 9
+const round = 11
 // 主队
-const host = '米内罗美洲'
+const host = '海于格松'
 // 客队
-const away = '奎尔巴'
+const away = '维京'
 // 联赛
-const league = 'BrazilSeriesA'
+const league = 'Eliteserien'
 // 主队阵型
-const hostFormations = ['433']
+const hostFormations = ['442']
 // 客队阵型
 const awayFormations = ['433']
 // 亚盘拉力
@@ -30,44 +30,44 @@ const qiutanHeaders = {
 }
 // ${BASE_URL}timeDistri/${season}/td${leagueCode}.js?flesh=${Math.random()}
 // 本期暂时不抓取
-// 爬虫页面
+// 爬虫页面 943 313
 const start_urls = [
   `${BASE_URL}matchResult/${season}/s${leagueCode}.js?version=${dateFormat(new Date().getTime(), 'YYYYMMDDHH')}`,
   `${BASE_URL}letGoal/${season}/l${leagueCode}.js?flesh=${Math.random()}`,
   `${BASE_URL}bigSmall/${season}/bs${leagueCode}.js?flesh=${Math.random()}`,
-  'http://zq.titan007.com/analysis/2159169cn.htm'
+  'http://zq.titan007.com/analysis/2142708cn.htm'
 ]
 // 比赛补充时间
 const matchTimeAddObj = {
-  hostRecent: [
-    { matchTime: '18:00:00' },
-    { matchTime: '18:00:00' },
-    { matchTime: '18:00:00' },
-    { matchTime: '18:00:00' },
-    { matchTime: '18:00:00' },
-    { matchTime: '18:00:00' }
-  ],
   awayRecent: [
-    { matchTime: '18:00:00' },
-    { matchTime: '18:00:00' },
-    { matchTime: '18:00:00' },
-    { matchTime: '18:00:00' },
-    { matchTime: '18:00:00' },
-    { matchTime: '18:00:00' }
+    { matchTime: '23:59:00' },
+    { matchTime: '23:59:00' },
+    { matchTime: '23:59:00' },
+    { matchTime: '23:59:00' },
+    { matchTime: '23:59:00' },
+    { matchTime: '23:59:00' }
+  ],
+  hostRecent: [
+    { matchTime: '23:59:00' },
+    { matchTime: '23:59:00' },
+    { matchTime: '21:00:00' },
+    { matchTime: '23:59:00' },
+    { matchTime: '23:59:00' },
+    { matchTime: '23:59:00' }
   ],
   hostFuture: [
-    { matchTime: '18:00:00' },
-    { matchTime: '18:00:00' },
-    { matchTime: '18:00:00' },
-    { matchTime: '18:00:00' },
-    { matchTime: '18:00:00' }
+    { matchTime: '22:00:00' },
+    { matchTime: '02:00:00' },
+    { matchTime: '23:59:00' },
+    { matchTime: '23:59:00' },
+    { matchTime: '23:59:00' }
   ],
   awayFuture: [
-    { matchTime: '18:00:00' },
-    { matchTime: '18:00:00' },
-    { matchTime: '18:00:00' },
-    { matchTime: '18:00:00' },
-    { matchTime: '18:00:00' }
+    { matchTime: '02:00:00' },
+    { matchTime: '23:59:00' },
+    { matchTime: '23:59:00' },
+    { matchTime: '23:59:00' },
+    { matchTime: '23:59:00' }
   ]
 }
 

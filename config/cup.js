@@ -11,7 +11,7 @@ const qiutanHeaders = {
 const start_urls = [
   `${BASE_URL}letGoal/${season}/l${leagueCode}.js?flesh=${Math.random()}`,
   `${BASE_URL}bigSmall/${season}/bs${leagueCode}.js?flesh=${Math.random()}`,
-  'http://zq.titan007.com/analysis/2202547sb.htm'
+  'http://zq.titan007.com/analysis/2202557sb.htm'
 ]
 
 const matchTimeAddObj = {
@@ -47,7 +47,7 @@ const matchTimeAddObj = {
   ]
 }
 
-const host = '丹麦'
+const host = '法国'
 const away = '克罗地亚'
 const league = 'EuropeLeague'
 const hostFormations = ['352']

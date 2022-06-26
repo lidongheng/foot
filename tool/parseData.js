@@ -147,7 +147,7 @@ function parsePrevenientMatch (hostTeam, awayTeam, round, league, arrTeam, jh) {
   // 主队 ---   END -----------
   // 客队 ---   START -----------
   /*hostSameGradeTeamsArr 这是确定主队同档次的 */
-  const hostSameGradeTeamsArr = League.getSameGradeTeams('JLeague', hostTeam).filter(item => {
+  const hostSameGradeTeamsArr = League.getSameGradeTeams(league, hostTeam).filter(item => {
     return item !== awayTeam
   })
   const hostSameGradeTeamsStr = hostSameGradeTeamsArr.join(',')
@@ -359,9 +359,17 @@ function parseInfo (h_data, a_data, v_data, $) {
   }
   for (let i = 0; i < Math.min(h_data.length, 6); i++) {
     let obj = {}
-    obj.hostTeam = cheerio.load(h_data[i][5])('span').first().html().replace(/<.*>*<.*>|\s/g, "").trim()
+    if ('<'.indexOf(h_data[i][5]) > -1 && '>'.indexOf(h_data[i][5]) > -1) {
+      obj.hostTeam = cheerio.load(h_data[i][5])('span').first().html().replace(/<.*>*<.*>|\s/g, "").trim()
+    } else {
+      obj.hostTeam = h_data[i][5].trim()
+    }
     obj.hostSerial = h_data[i][4]
-    obj.awayTeam = cheerio.load(h_data[i][7])('span').first().html().replace(/<.*>*<.*>|\s/g, "").trim()
+    if ('<'.indexOf(h_data[i][7]) > -1 && '>'.indexOf(h_data[i][7]) > -1) {
+      obj.awayTeam = cheerio.load(h_data[i][7])('span').first().html().replace(/<.*>*<.*>|\s/g, "").trim()
+    } else {
+      obj.awayTeam = h_data[i][7].trim()
+    }
     obj.awaySerial = h_data[i][6]
     obj.score = h_data[i][8] + ':' + h_data[i][9]
     obj.odd = (-1 * h_data[i][11]) >= 0 ? '+' + (-1 * h_data[i][11]) : '' + (-1 * h_data[i][11])
@@ -373,9 +381,17 @@ function parseInfo (h_data, a_data, v_data, $) {
 
   for (let i = 0; i < Math.min(a_data.length, 6); i++) {
     let obj = {}
-    obj.hostTeam = cheerio.load(a_data[i][5])('span').first().html().replace(/<.*>*<.*>|\s/g, "").trim()
+    if ('<'.indexOf(a_data[i][5]) > -1 && '>'.indexOf(a_data[i][5]) > -1) {
+      obj.hostTeam = cheerio.load(a_data[i][5])('span').first().html().replace(/<.*>*<.*>|\s/g, "").trim()
+    } else {
+      obj.hostTeam = a_data[i][5].trim()
+    }
     obj.hostSerial = a_data[i][4]
-    obj.awayTeam = cheerio.load(a_data[i][7])('span').first().html().replace(/<.*>*<.*>|\s/g, "").trim()
+    if ('<'.indexOf(a_data[i][7]) > -1 && '>'.indexOf(a_data[i][7]) > -1) {
+      obj.awayTeam = cheerio.load(a_data[i][7])('span').first().html().replace(/<.*>*<.*>|\s/g, "").trim()
+    } else {
+      obj.awayTeam = a_data[i][7].trim()
+    }
     obj.awaySerial = a_data[i][6]
     obj.score = a_data[i][8] + ':' + a_data[i][9]
     obj.odd = (-1 * a_data[i][11]) >= 0 ? '+' + (-1 * a_data[i][11]) : '' + (-1 * a_data[i][11])
@@ -421,6 +437,7 @@ function parseInfo (h_data, a_data, v_data, $) {
     }
   })
   $('#porlet_20>table>tbody>tr>td:last>TABLE>tbody>tr:gt(1)>td').each(function(n, i) {
+    if ($(i).html().trim() === '') return object
     // 0-5 6-11 12-17 18-23 24-29 0 1 2 5
     if (n%6 === 0) {
       obj.matchTime = '2022-' + $(i).html().trim()
@@ -428,6 +445,7 @@ function parseInfo (h_data, a_data, v_data, $) {
       obj.league = League.leagueChineseToEnglish($(i).html().trim())
     } else if (n%6 === 2) {
       let strArr = $(i).html().trim().split('-')
+      if (strArr.length < 2) return object
       obj.hostTeam = strArr[0].trim()
       obj.awayTeam = strArr[1].trim()
       obj.match = obj.hostTeam + 'vs' + obj.awayTeam

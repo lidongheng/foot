@@ -172,7 +172,7 @@ function crawler (start_urls, headers = {}) {
         asiaOdd: localData.nation[league][host].asiaOdd,
         asiaDaxiao: localData.nation[league][host].asiaDaxiao,
         oddPulling: host,
-        daxiaoPulling: ''
+        daxiaoPulling: '大'
       })
       const a = match.getTeamPlayersInfo('host')
       const b = match.getTeamPlayersInfo('away')

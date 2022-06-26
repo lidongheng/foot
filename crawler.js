@@ -50,6 +50,7 @@ function crawler (start_urls, headers = {}) {
             jh['R_'+i] = []
           }
           let html = res[i].data
+          console.log(html)
           eval(html)
           const listData0 = parseData0(arrTeam, totalScore, homeScore, guestScore)
           const tempData = parsePrevenientMatch(host, away, round, league, arrTeam, jh)
