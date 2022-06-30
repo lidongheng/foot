@@ -359,13 +359,14 @@ function parseInfo (h_data, a_data, v_data, $) {
   }
   for (let i = 0; i < Math.min(h_data.length, 6); i++) {
     let obj = {}
-    if ('<'.indexOf(h_data[i][5]) > -1 && '>'.indexOf(h_data[i][5]) > -1) {
+
+    if (h_data[i][5].indexOf('<') > -1 && h_data[i][5].indexOf('>') > -1) {
       obj.hostTeam = cheerio.load(h_data[i][5])('span').first().html().replace(/<.*>*<.*>|\s/g, "").trim()
     } else {
       obj.hostTeam = h_data[i][5].trim()
     }
     obj.hostSerial = h_data[i][4]
-    if ('<'.indexOf(h_data[i][7]) > -1 && '>'.indexOf(h_data[i][7]) > -1) {
+    if (h_data[i][7].indexOf('<') > -1 && h_data[i][7].indexOf('>') > -1) {
       obj.awayTeam = cheerio.load(h_data[i][7])('span').first().html().replace(/<.*>*<.*>|\s/g, "").trim()
     } else {
       obj.awayTeam = h_data[i][7].trim()
@@ -381,13 +382,13 @@ function parseInfo (h_data, a_data, v_data, $) {
 
   for (let i = 0; i < Math.min(a_data.length, 6); i++) {
     let obj = {}
-    if ('<'.indexOf(a_data[i][5]) > -1 && '>'.indexOf(a_data[i][5]) > -1) {
+    if (a_data[i][5].indexOf('<') > -1 && a_data[i][5].indexOf('>') > -1) {
       obj.hostTeam = cheerio.load(a_data[i][5])('span').first().html().replace(/<.*>*<.*>|\s/g, "").trim()
     } else {
       obj.hostTeam = a_data[i][5].trim()
     }
     obj.hostSerial = a_data[i][4]
-    if ('<'.indexOf(a_data[i][7]) > -1 && '>'.indexOf(a_data[i][7]) > -1) {
+    if (a_data[i][7].indexOf('<') > -1 && a_data[i][7].indexOf('>') > -1) {
       obj.awayTeam = cheerio.load(a_data[i][7])('span').first().html().replace(/<.*>*<.*>|\s/g, "").trim()
     } else {
       obj.awayTeam = a_data[i][7].trim()
@@ -411,7 +412,7 @@ function parseInfo (h_data, a_data, v_data, $) {
     obj.awayTeam = cheerio.load(v_data[i][7])('span').first().html().replace(/<.*>*<.*>|\s/g, "").trim()
     obj.awaySerial = v_data[i][6]
     obj.score = v_data[i][8] + ':' + v_data[i][9]
-    obj.odd = (-1 * v_data[i][11]) >= 0 ? '+' + (-1 * v_data[i][11]) : '' + (-1 * v_data[i][11])
+    obj.odd = ((-1 * v_data[i][11]) >= 0) ? ('+' + (-1 * v_data[i][11])) : ('' + (-1 * v_data[i][11]))
     obj.matchTime = '20' + v_data[i][0]
     obj.league = League.leagueChineseToEnglish(v_data[i][2])
     object.history.push(obj)

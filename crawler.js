@@ -221,9 +221,9 @@ function crawler (start_urls, headers = {}) {
       if (League.include(league)) {
         const o = match.displayPrevenintMatch('host')
         const p = match.displayPrevenintMatch('away')
-        z = a+'\n'+b+'\n'+c+'\n'+d+'\n'+e+'\n'+g+'\n'+h+'\n'+i+'\n'+j+'\n'+k+'\n'+m+'\n'+n+'\n'+o+'\n'+p+'\n'+q+'\n'+l
+        z = a+'\n'+b+'\n'+e+'\n'+g+'\n'+h+'\n'+k+'\n'+i+'\n'+j+'\n'+c+'\n'+d+'\n'+m+'\n'+n+'\n'+o+'\n'+p+'\n'+q+'\n'+l
       } else {
-        z = a+'\n'+b+'\n'+c+'\n'+d+'\n'+e+'\n'+g+'\n'+h+'\n'+i+'\n'+j+'\n'+k+'\n'+m+'\n'+n+'\n'+q+'\n'+l
+        z = a+'\n'+b+'\n'+e+'\n'+g+'\n'+h+'\n'+k+'\n'+i+'\n'+j+'\n'+c+'\n'+d+'\n'+m+'\n'+n+'\n'+q+'\n'+l
       }
       
       

@@ -598,7 +598,7 @@ class Match {
   }
 
   getTeamFutureMatchInfo (status) {
-    let str = ''
+    let str = `\n\n特别关注：${this[status + 'Team']}未来赛程\n\n`
     if (!this.matchTime) str = str + '你还没有填写比赛时间，暂时无法计算未来比赛'
     this[status + 'TeamFutureMatchs'].forEach(match => {
       match.period = Math.floor((new Date(match.matchTime).getTime() - new Date(this.matchTime).getTime()) / 1000 / 3600)
@@ -805,10 +805,14 @@ class Match {
 
   analysisRecentSixMatchs (status) {
     // 分析什么？对手有多强，赛程有多紧，赢盘率有多高
+    // 2022.06.29 新增 你先要呈现出来
     // 查自己的档次
     const myGrade = League.getGrade(this[status + 'TeamInfo'].league, this[status + 'Team'])
+    const matchList = []
     const statistics = { host: 0, away: 0, win: 0, tie: 0, lost:0, winOdd: 0, tieOdd: 0, lostOdd: 0, period: [], grade: [] }
     this.recentSixMatchs[status + 'Team'].forEach(item => {
+      let matchStr = `${item.matchTime} ${item.league} ${item.hostTeam} ${item.score} ${item.awayTeam} ${item.odd}`
+      matchList.push(matchStr)
       statistics.period.push(Math.floor((new Date(this.matchTime).getTime() - new Date(item.matchTime).getTime()) / 1000 / 3600 / 24))
       // 先看看自己是主场还是客场
       let a
@@ -888,15 +892,20 @@ class Match {
       }
     })
     // 根据统计信息分析
-    return `${this[status + 'Team']}近期赛程: ${statistics.win}胜${statistics.tie}平${statistics.lost}负, 
+    let str = '\n\n'+ this[status + 'Team'] + '近期赛程：\n\n'
+    matchList.forEach(item => {
+      str = str + item + '\n'
+    })
+    str = str + '\n'
+    return `${str}${this[status + 'Team']}近期赛程: ${statistics.win}胜${statistics.tie}平${statistics.lost}负, 
        ${statistics.winOdd}赢${statistics.tieOdd}走${statistics.lostOdd}输, 6场比赛分别至今${statistics.period[0]}天, 
        ${statistics.period[1]}天,${statistics.period[2]}天,${statistics.period[3]}天,${statistics.period[4]}天,
        ${statistics.period[5]}天, 对手档次分别处于第${statistics.grade[0]}档次,第${statistics.grade[1]}档次,第${statistics.grade[2]}档次,
-       第${statistics.grade[3]}档次,第${statistics.grade[4]}档次,第${statistics.grade[5]}档次,`
+       第${statistics.grade[3]}档次,第${statistics.grade[4]}档次,第${statistics.grade[5]}档次,\n\n`
   }
 
   analysisHistoryMatchs () {
-    if (this.historyMatchs.length === 0) return '暂无历史交锋数据\n'
+    if (this.historyMatchs.length === 0) return '\n\n暂无历史交锋数据\n'
     let index = 0
     // 先把断层的去掉
     for (let i = 0; i < this.historyMatchs.length - 1; i++) {
@@ -909,7 +918,12 @@ class Match {
     let n = this.historyMatchs.length
     // 然后我们要把分析的函数抽离出来
     const statistics = this.statisticsMatch('historyMatchs', 'host')
-    let str = '最近' + n + '次交锋, 主队' + statistics.win + '胜' + statistics.tie + '平' + statistics.lost + '负, ' + 
+    let str = '\n\n历史交锋\n\n'
+    this.historyMatchs.forEach(item => {
+      str = str + `${item.matchTime} ${item.league} ${item.hostTeam} ${item.score} ${item.awayTeam} ${item.odd}\n`
+    })
+    str = str + '\n'
+    str = str +'最近' + n + '次交锋, 主队' + statistics.win + '胜' + statistics.tie + '平' + statistics.lost + '负, ' + 
       statistics.winOdd + '赢' + statistics.tieOdd + '平' + statistics.lostOdd + '输, 最近一次交锋：' + this.historyMatchs[0].matchTime + 
       ' ' + this.historyMatchs[0].hostTeam + this.historyMatchs[0].score + this.historyMatchs[0].awayTeam + ' ' + this.historyMatchs[0].odd
     return str
@@ -1079,7 +1093,8 @@ class Match {
   }
 
   displayPanlu () {
-    let str = '名 赛 队 上 平 下 赢 走 输 净 赢% 走% 输%\n'
+    let str = '\n\n重点关注：盘口排名\n\n'
+    str = str +  '名 赛 队 上 平 下 赢 走 输 净 赢% 走% 输%\n'
     str = str + this.hostTeamInfo.totalPanlu.panRanking + '   ' + this.hostTeam + '   ' + this.hostTeamInfo.totalPanlu.totalpanNumber + '   ' + this.hostTeamInfo.totalPanlu.shangpanNumber +
       '   ' + this.hostTeamInfo.totalPanlu.pingpanNumber + '   ' + this.hostTeamInfo.totalPanlu.xiapanNumber + '   ' + this.hostTeamInfo.totalPanlu.yingpanNumber +
       '   ' + this.hostTeamInfo.totalPanlu.zoupanNumber + '   ' + this.hostTeamInfo.totalPanlu.shupanNumber + '   ' + this.hostTeamInfo.totalPanlu.jingpanNumber +
@@ -1092,7 +1107,8 @@ class Match {
   }
 
   displayDaxiao () {
-    let str = '名 赛 队 大 走 小 大球% 走% 小球%\n'
+    let str = '\n\n重点关注：盘口排名\n\n'
+    str = str + '名 赛 队 大 走 小 大球% 走% 小球%\n'
     str = str + this.hostTeamInfo.totalBs.panRanking + '   ' + this.hostTeam + '   ' + this.hostTeamInfo.totalBs.totalpanNumber + '   ' + this.hostTeamInfo.totalBs.bigpanNumber +
       '   ' + this.hostTeamInfo.totalBs.pingpanNumber + '   ' + this.hostTeamInfo.totalBs.smallpanNumber + '   ' + this.hostTeamInfo.totalBs.bigpanPercent + '%   ' + this.hostTeamInfo.totalBs.zoupanPercent + '%   ' + this.hostTeamInfo.totalBs.smallpanPercent + '%\n'
       str = str + this.awayTeamInfo.totalBs.panRanking + '   ' + this.awayTeam + '   '  + this.awayTeamInfo.totalBs.totalpanNumber + '   ' + this.awayTeamInfo.totalBs.bigpanNumber +
