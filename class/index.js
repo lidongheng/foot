@@ -77,8 +77,8 @@ class League {
   static JLeagueGrade = [
     ['川崎前锋', '鹿岛鹿角', '横滨水手'],
     ['浦和红钻', '广岛三箭', '大阪樱花', 'FC东京', '柏太阳神', '名古屋鲸八'],
-    ['神户胜利船', '大阪钢巴', '札幌冈萨多', '清水鼓动', '福冈黄蜂'],
-    ['湘南海洋', '鸟栖沙岩', '磐田喜悦', '京都不死鸟']
+    ['神户胜利船', '大阪钢巴', '札幌冈萨多', '清水鼓动','清水心跳', '福冈黄蜂'],
+    ['湘南海洋', '湘南比马', '鸟栖沙岩', '磐田喜悦', '磐田山叶', '京都不死鸟']
   ]
   static EliteserienGrade = [
     ['博多格林特', '莫尔德', '维京'],
@@ -116,8 +116,19 @@ class League {
     if (!League.include(league)) return null
     for (let i = 0; i < League[league + 'Grade'].length; i++) {
       for (let j = 0; j < League[league + 'Grade'][i].length; j++) {
+        // 改进优化算法
         if (League[league + 'Grade'][i][j] === name) {
           return i + 1
+        } else {
+          let n = League[league + 'Grade'][i][j].length
+          let count = 0
+          for (let k = 0; k < n; k++) {
+            if (League[league + 'Grade'][i][j][k] !== name[k]) break
+            else { 
+              count = count + 1
+              if (count === (n - 1)) return i + 1
+            }
+          }
         }
       }
     }
@@ -1118,6 +1129,7 @@ class Match {
 
   displayPrevenintMatch (status) {
     let str = '\n' + status + '本赛季与同档次球队较量\n'
+    if (!this[status + 'TeamInfo'].prevenientMatch) return str + '\n暂无信息，请检查是否加入了analysis页或是暂无同档次球队对阵\n\n'
     this[status + 'TeamInfo'].prevenientMatch.forEach(item => {
       str = str + item.matchTime + ' 第' + item.round + '轮 ' + item.hostTeam + ' ' +
         item.score + ' ' + item.awayTeam + ' ' + item.odd + ' ' + item.oddResult + '\n'

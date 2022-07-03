@@ -721,7 +721,10 @@
           { "name": "上门知树", "club": "大阪樱花", "nation": "日本", "stats": 0, "position": ["LW"], "staff": "FW", "caps": 11, "lineups": 4, "age": 25, "number": 7, "description": "J2比较厉害的前锋" },
           { "name": "为田大贵", "club": "大阪樱花", "nation": "日本", "stats": 61, "position": ["RW"], "staff": "FW", "caps": 12, "lineups": 7, "age": 28, "number": 19 },
           { "name": "中原辉", "club": "大阪樱花", "nation": "日本", "stats": 0, "position": ["LW"], "staff": "FW", "caps": 18, "lineups": 14, "age": 25, "number": 41 },
-          { "name": "北野飒太", "club": "大阪樱花", "nation": "日本", "stats": 0, "position": ["LW"], "staff": "FW", "caps": 15, "lineups": 6, "age": 17, "number": 38, "description": "未成年" }
+          { "name": "北野飒太", "club": "大阪樱花", "nation": "日本", "stats": 0, "position": ["LW"], "staff": "FW", "caps": 15, "lineups": 6, "age": 17, "number": 38, "description": "未成年" },
+          { "name": "舩木翔", "club": "大阪樱花", "nation": "日本", "stats": 0, "position": ["LB"], "staff": "DF", "caps": 13, "lineups": 7, "goal": 2, "age": 17, "number": 38, "description": "" },
+          { "name": "布鲁诺-门德斯", "club": "大阪樱花", "nation": "日本", "stats": 69, "position": ["ST"], "staff": "FW", "caps": 19, "lineups": 10, "goal": 5, "age": 27, "number": 11, "description": "" },
+          { "name": "山田宽人", "club": "大阪樱花", "nation": "日本", "stats": 66, "position": ["ST"], "staff": "FW", "caps": 16, "lineups": 10, "goal": 4, "age": 22, "number": 34, "description": "" }
         ],
         "matchTime": "2022-07-02 18:00:00",
         "euroOdd": {
@@ -945,7 +948,21 @@
           { "name": "椎桥慧也", "club": "柏太阳神", "nation": "日本", "stats": 66, "position": ["CM"], "staff": "MF", "caps": 16, "lineups": 12, "age": 24, "number": 6 },
           { "name": "上岛拓已", "club": "柏太阳神", "nation": "日本", "stats": 66, "position": ["CB"], "staff": "DF", "caps": 11, "lineups": 10, "age": 25, "number": 44 },
           { "name": "川口尚纪", "club": "柏太阳神", "nation": "日本", "stats": 62, "position": ["CB"], "staff": "DF", "caps": 10, "lineups": 4, "age": 28, "number": 24 }
-        ]
+        ],
+        "euroOdd": {
+          "澳门": ["3.08", "3.33", "2.08", "2.95", "3.33", "2.15"],
+          "立博": ["2.70", "3.10", "2.30", "2.90", "3.20", "2.15"],
+          "韦德": ["2.88", "3.30", "2.30", "3.00", "3.30", "2.20"]
+        },
+        "asiaOdd": {
+          "初盘": ["1.08", "+0", "0.80"],
+          "终盘": ["0.89", "+0.25", "0.99"]
+        },
+        "asiaDaxiao": {
+          "初盘": ["0.91", "2.5", "0.95"],
+          "终盘": ["0.86", "2.5", "1.02"]
+        },
+        "matchTime": "2022-07-02 17:30:00"
       },
       "广岛三箭": {
         "players": [
@@ -988,6 +1005,316 @@
           {"name":"棚田亮","nation":"日本","stats":0,"position":[""],"staff":"FW","attr":"FW","attrDes":"FW","caps":0,"lineups":0,"age":19,"number":28,"height":173,"ename":"Ryo Tanada"},
           {"name":"森本空斗","nation":"日本","stats":0,"position":[""],"staff":"FW","attr":"FW","attrDes":"FW","caps":0,"lineups":0,"age":18,"number":0,"height":184,"ename":"Sorato Morimoto"}
         ]
+      },
+      "名古屋鲸八": {
+        "players": [
+          {"name":"兰格拉克","club":"名古屋鲸八","nation":"澳大利亚","stats":71,"position":["GK"],"staff":"GK","attr":"GK","attrDes":"GK","caps":22,"lineups":22,"age":34,"number":1,"height":193,"ename":"Mitchell James Langerak"},
+          {"name":"渋谷飛翔","nation":"日本","stats":0,"position":[""],"staff":"GK","attr":"GK","attrDes":"GK","caps":0,"lineups":0,"age":27,"number":18,"height":188,"ename":"Tsubasa shibuya"},
+          {"name":"武田洋平","nation":"日本","stats":0,"position":[""],"staff":"GK","attr":"GK","attrDes":"GK","caps":0,"lineups":0,"age":35,"number":21,"height":190,"ename":"Yohei Takeda"},
+          {"name":"三井大辉","nation":"日本","stats":0,"position":[""],"staff":"GK","attr":"GK","attrDes":"GK","caps":0,"lineups":0,"age":21,"number":0,"height":188,"ename":"Daiki Mitsui"},
+          {"name":"帕格努萨特","nation":"巴西","stats":68,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":15,"lineups":11,"age":32,"number":2,"height":191,"ename":"Tiago Pagnussat"},
+          {"name":"丸山祐市","nation":"日本","stats":67,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":15,"lineups":15,"goal":1,"age":33,"number":3,"height":184,"ename":"Maruyama Yuuichi"},
+          {"name":"中谷进之介","club":"日本","nation":"日本","stats":71,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":25,"lineups":23,"goal":2,"age":26,"number":4,"height":184,"ename":"Shinnosuke Nakatani"},
+          {"name":"宫原和也","nation":"日本","stats":66,"position":["RB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":14,"lineups":11,"assist":1,"age":26,"number":6,"height":172,"ename":"Kazuya Miyahara"},
+          {"name":"酒井宣福","nation":"日本","stats":57,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":19,"lineups":11,"age":30,"number":9,"height":179,"ename":"Noriyoshi Sakai"},
+          {"name":"藤井阳也","nation":"日本","stats":63,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":26,"lineups":21,"age":22,"number":13,"height":186,"ename":"Haruya Fujii"},
+          {"name":"森下 龍矢","nation":"日本","stats":65,"position":["LM"],"staff":"DF","attr":"DF","attrDes":"DF","caps":24,"lineups":19,"age":25,"number":17,"height":170,"ename":"Ryoya Morishita"},
+          {"name":"东约翰","nation":"日本","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":0,"lineups":0,"age":20,"number":22,"height":185,"ename":"John Higashi"},
+          {"name":"吉田丰","nation":"日本","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":0,"lineups":0,"age":32,"number":23,"height":168,"ename":"Yutaka Yoshida"},
+          {"name":"河面旺成","nation":"日本","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":0,"lineups":0,"age":28,"number":24,"height":183,"ename":"Akinari Kawazura"},
+          {"name":"吉田晃","nation":"日本","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":0,"lineups":0,"age":21,"number":28,"height":185,"ename":"Akira Yoshida"},
+          {"name":"吉田温纪","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":0,"lineups":0,"number":31,"ename":"Haruki Yoshida"},
+          {"name":"长泽和辉","nation":"日本","stats":65,"position":["CM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":8,"lineups":3,"age":31,"number":5,"height":172,"ename":"Kazuki Nagasawa"},
+          {"name":"阿部浩之","nation":"日本","stats":67,"position":["CAM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":22,"lineups":7,"goal":4,"age":33,"number":7,"height":170,"ename":"Hiroyuki Abe"},
+          {"name":"柿谷曜一朗","nation":"日本","stats":66,"position":["ST"],"staff":"MF","attr":"MF","attrDes":"MF","caps":22,"lineups":13,"goal":1,"age":32,"number":8,"height":177,"ename":"Yoichiro Kakitani"},
+          {"name":"马特乌什","nation":"巴西","stats":69,"position":["ST"],"staff":"MF","attr":"MF","attrDes":"MF","caps":25,"lineups":23,"goal":8,"assist":4,"age":28,"number":10,"height":167,"ename":"Mateus dos Santos Castro"},
+          {"name":"相马勇纪","club":"日本U23","nation":"日本","stats":71,"position":["LM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":27,"lineups":20,"age":25,"number":11,"height":165,"ename":"Yuki Soma"},
+          {"name":"仙头启矢","nation":"日本","stats":67,"position":["CAM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":26,"lineups":23,"age":28,"number":14,"height":170,"ename":"Keiya Sento"},
+          {"name":"稻垣祥","nation":"日本","stats":70,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":26,"lineups":25,"goal":3,"age":31,"number":15,"height":175,"ename":"Sho Inagaki"},
+          {"name":"莱奥·席尔瓦","nation":"巴西","stats":69,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":25,"lineups":21,"age":37,"number":16,"height":181,"ename":"Hugo Leonardo Silva Serejo,Leo Silva"},
+          {"name":"甲田英将","nation":"日本","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":9,"lineups":2,"age":19,"number":33,"height":166,"ename":"Hidemasa Koda"},
+          {"name":"石田龙太郎","nation":"日本","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":10,"lineups":3,"age":21,"number":46,"height":174,"ename":"Ryotaro Ishida"},
+          {"name":"丰田晃太","nation":"日本","stats":0,"position":[""],"staff":"FW","attr":"FW","attrDes":"FW","caps":0,"lineups":0,"age":19,"number":32,"height":0,"ename":"Koki Toyoda"},
+          {"name":"内田宅哉","nation":"日本","stats":65,"position":["LW"],"staff":"FW","attr":"FW","attrDes":"FW","caps":9,"lineups":2,"age":24,"number":34,"height":177,"ename":"Takuya Uchida"},
+          {"name":"斯威尔佐克","nation":"波兰","stats":72,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":21,"lineups":12,"goal":12,"age":30,"number":40,"height":179,"ename":"Jakub Swierczok"},
+          {"name":"金崎梦生","nation":"日本","stats":67,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":13,"lineups":6,"age":33,"number":44,"height":180,"ename":"Mu Kanazaki"}
+        ]
+      },
+      "神户胜利船": {
+        "players": [
+          {"name":"前川黛也","nation":"日本","stats":66,"position":["GK"],"staff":"GK","attr":"GK","attrDes":"GK","caps":18,"lineups":18,"age":28,"number":1,"height":191,"ename":"Daiya Maekawa"},
+          {"name":"饭仓 大树","nation":"日本","stats":65,"position":["GK"],"staff":"GK","attr":"GK","attrDes":"GK","caps":6,"lineups":6,"age":36,"number":18,"height":181,"ename":"Hiroki Iikura"},
+          {"name":"小林 友希","nation":"日本","stats":66,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":22,"lineups":20,"age":22,"number":3,"height":185,"ename":"Yuki Kobayashi"},
+          {"name":"槙野 智章","nation":"日本","stats":70,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":15,"lineups":10,"age":35,"number":14,"height":182,"ename":"Tomoaki Makino"},
+          {"name":"菊池 流帆","nation":"日本","stats":68,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":18,"lineups":16,"age":26,"number":17,"height":188,"ename":"Ryuma Kikuchi"},
+          {"name":"初濑 亮","nation":"日本","stats":68,"position":["LB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":17,"lineups":11,"age":25,"number":19,"height":180,"ename":"Ryo Hatsuse"},
+          {"name":"山川 哲史","nation":"日本","stats":66,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":16,"lineups":14,"age":25,"number":23,"height":186,"ename":"Tetsushi Yamakawa"},
+          {"name":"酒井 高德","nation":"日本","stats":70,"position":["RB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":23,"lineups":21,"age":31,"number":24,"height":176,"ename":"Gotoku Sakai"},
+          {"name":"大崎 玲央","nation":"日本","stats":66,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":18,"lineups":15,"age":31,"number":25,"height":187,"ename":"Leo Osaki"},
+          {"name":"山口 萤","nation":"日本","stats":70,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":22,"lineups":22,"age":32,"number":5,"height":174,"ename":"Hotaru Yamaguchi"},
+          {"name":"塞尔吉·桑佩尔","nation":"西班牙","stats":70,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":6,"lineups":4,"age":27,"number":6,"height":181,"ename":"Sergi Samper Montana"},
+          {"name":"乡家 友太","nation":"日本","stats":66,"position":["RM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":15,"lineups":11,"age":23,"number":7,"height":183,"ename":"Yuta Goke"},
+          {"name":"伊涅斯塔","nation":"西班牙","stats":79,"position":["CAM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":17,"lineups":12,"age":38,"number":8,"height":171,"ename":"Andres Iniesta Lujan"},
+          {"name":"汰木 康也","nation":"日本","stats":67,"position":["LM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":21,"lineups":13,"age":27,"number":16,"height":183,"ename":"Koya Yuruki"},
+          {"name":"中坂 勇哉","nation":"日本","stats":65,"position":["CAM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":9,"lineups":4,"age":25,"number":31,"height":171,"ename":"Yuya Nakasaka"},
+          {"name":"扇原贵宏","nation":"日本","stats":69,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":14,"lineups":10,"age":31,"number":33,"height":185,"ename":"Takahiro Ogihara"},
+          {"name":"博扬","nation":"西班牙","stats":66,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":19,"lineups":7,"age":32,"number":9,"height":173,"ename":"Bojan Krkic Perez"},
+          {"name":"大迫勇也","club":"日本","nation":"日本","stats":68,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":19,"lineups":12,"age":32,"number":10,"height":182,"ename":"Yuya Osako"},
+          {"name":"武藤 嘉纪","nation":"日本","stats":72,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":14,"lineups":13,"age":30,"number":11,"height":178,"ename":"Yoshinori Muto"},
+          {"name":"藤本 宪明","nation":"日本","stats":0,"position":["LW"],"staff":"FW","attr":"FW","attrDes":"FW","caps":1,"lineups":0,"age":33,"number":21,"height":175,"ename":"Noriaki Fujimoto"},
+          {"name":"林肯","nation":"巴西","stats":70,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":12,"lineups":5,"age":22,"number":29,"height":180,"ename":"Lincoln Correa dos Santos"},
+          {"name":"小田裕太郎","club":"日本U23","nation":"日本","stats":61,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":10,"lineups":4,"age":21,"number":41,"height":181,"ename":"Yutaro Oda"},
+          { "name": "穆戈萨", "club": "神户胜利船", "nation": "黑山", "stats": 72, "position": ["ST"], "staff": "FW", "attr": "ST", "attrDes": "", "caps": 15, "goal": 11, "number": 9, "age": 30, "lineups": 14, "height": 188, "description": "进球大杀器" }
+        ]
+      },
+      "鹿岛鹿角": {
+        "players": [
+          {"name":"权纯泰","nation":"韩国","stats":65,"position":["GK"],"staff":"GK","attr":"GK","attrDes":"GK","caps":21,"lineups":21,"age":38,"number":1,"height":184,"ename":"Kwoun Sun Tae"},
+          {"name":"早川友木","nation":"日本","stats":0,"position":[""],"staff":"GK","attr":"GK","attrDes":"GK","caps":0,"lineups":0,"age":23,"number":29,"height":186,"ename":"Tomoki Hayakawa"},
+          {"name":"枚優也","nation":"日本","stats":0,"position":[""],"staff":"GK","attr":"GK","attrDes":"GK","caps":0,"lineups":0,"age":23,"number":31,"height":184,"ename":"Yuya Oki"},
+          {"name":"山田大树","nation":"日本","stats":0,"position":[""],"staff":"GK","attr":"GK","attrDes":"GK","caps":0,"lineups":0,"age":20,"number":38,"height":190,"ename":"Taiki Yamada"},
+          {"name":"安西幸辉","nation":"日本","stats":69,"position":["RB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":27,"lineups":23,"age":27,"number":2,"height":172,"ename":"Kouki Anzai"},
+          {"name":"关川郁万","nation":"日本","stats":67,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":23,"lineups":21,"goal":1,"age":22,"number":5,"height":182,"ename":"Ikuma Sekigawa"},
+          {"name":"布埃诺","nation":"巴西","stats":66,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":9,"lineups":7,"goal":1,"assist":1,"age":27,"number":15,"height":182,"ename":"Wellington Bueno"},
+          {"name":"小田逸稀","nation":"日本","stats":70,"position":["LB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":4,"lineups":2,"age":24,"number":16,"height":173,"ename":"Itsuki Oda"},
+          {"name":"金敏泰","nation":"韩国","stats":68,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":18,"lineups":9,"age":29,"number":20,"height":187,"ename":"Kim Min Tae"},
+          {"name":"广濑陆斗","nation":"日本","stats":67,"position":["RB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":13,"lineups":8,"age":27,"number":22,"height":176,"ename":"Rikuto Hirose"},
+          {"name":"林尚辉","nation":"日本","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":0,"lineups":0,"age":24,"number":23,"height":181,"ename":"Naoki Hayashi"},
+          {"name":"溝口 修平","nation":"日本","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":0,"lineups":0,"age":18,"number":28,"height":0,"ename":"Shuhei Mizoguchi"},
+          {"name":"常本佳吾","nation":"日本","stats":65,"position":["RB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":24,"lineups":21,"goal":1,"age":24,"number":32,"height":173,"ename":"Keigo Tsunemoto"},
+          {"name":"三竿健斗","nation":"日本","stats":72,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":25,"lineups":23,"goal":2,"age":26,"number":6,"height":181,"ename":"Kento Misao"},
+          {"name":"胡安·阿拉诺","nation":"巴西","stats":71,"position":["LM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":17,"lineups":9,"goal":1,"age":26,"number":7,"height":172,"ename":"Juan Matheus Alano Nascimento"},
+          {"name":"荒木辽太郎","nation":"日本","stats":70,"position":["LM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":12,"lineups":7,"goal":1,"assist":1,"age":20,"number":10,"height":170,"ename":"Ryotaro Araki","description":"速度快"},
+          {"name":"和泉竜司","nation":"日本","stats":67,"position":["LM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":24,"lineups":17,"age":29,"number":11,"height":173,"ename":"Ryuji Izumi"},
+          {"name":"樋口雄太","nation":"日本","stats":67,"position":["CM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":25,"lineups":21,"age":26,"number":14,"height":168,"ename":"Yuta Higuchi"},
+          {"name":"阿图尔·凯克","nation":"巴西","stats":69,"position":["LM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":19,"lineups":16,"goal":7,"assist":3,"age":30,"number":17,"height":174,"ename":"Arthur Caike do Nascimento Cruz"},
+          {"name":"迭戈·皮图卡","nation":"巴西","stats":71,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":17,"lineups":15,"goal":1,"assist":2,"age":30,"number":21,"height":175,"ename":"Diego Pituca"},
+          {"name":"小川裕介","nation":"日本","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":0,"lineups":0,"age":20,"number":24,"height":166,"ename":"Yusuke Ogawa"},
+          {"name":"松村优太","nation":"日本","stats":60,"position":["RM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":11,"lineups":5,"goal":1,"assist":1,"age":21,"number":27,"height":170,"ename":"Yuta Matsumura"},
+          {"name":"名古新太郎","nation":"日本","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":0,"lineups":0,"age":26,"number":30,"height":168,"ename":"Nago Shintaro"},
+          {"name":"仲间隼斗","nation":"日本","stats":68,"position":["LM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":13,"lineups":7,"goal":3,"age":30,"number":33,"height":170,"ename":"Hayato Nakama"},
+          {"name":"舩桥佑","nation":"日本","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":0,"lineups":0,"age":20,"number":34,"height":175,"ename":"Yu Funabashi"},
+          {"name":"中村亮太朗","nation":"日本","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":14,"lineups":5,"age":25,"number":35,"height":179,"ename":"Ryotaro Nakamura"},
+          {"name":"土居圣真","nation":"日本","stats":69,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":22,"lineups":12,"goal":3,"assist":1,"age":30,"number":8,"height":172,"ename":"Shoma Doi"},
+          {"name":"伊瓦拉多","nation":"巴西","stats":71,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":10,"lineups":2,"age":31,"number":9,"height":181,"ename":"Everaldo Stum"},
+          {"name":"上田绮世","nation":"日本","stats":72,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":23,"lineups":19,"goal":14,"assist":2,"age":24,"number":18,"height":182,"ename":"Ueda Ayase","description":"进球多，速度又快，又能站桩"},
+          {"name":"染野 唯月","nation":"日本","stats":61,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":21,"lineups":3,"goal":4,"age":21,"number":19,"height":179,"ename":"Itsuki Someno"},
+          {"name":"铃木优磨","nation":"日本","stats":74,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":23,"lineups":22,"goal":9,"assist":7,"age":26,"number":40,"height":182,"ename":"Yuma Suzuki"}
+        ]
+      },
+      "FC东京": {
+        "players": [
+          {"name":"儿玉刚","nation":"日本","stats":0,"position":[""],"staff":"GK","attr":"GK","attrDes":"GK","caps":0,"lineups":0,"age":35,"number":1,"height":183,"ename":"Tsuyoshi Kodama"},
+          {"name":"波多野豪","nation":"日本","stats":0,"position":[""],"staff":"GK","attr":"GK","attrDes":"GK","caps":0,"lineups":0,"age":24,"number":13,"height":198,"ename":"Go Hatano"},
+          {"name":"雅库布·斯沃维克","nation":"波兰","stats":67,"position":["GK"],"staff":"GK","attr":"GK","attrDes":"GK","caps":19,"lineups":19,"age":31,"number":24,"height":190,"ename":"Jakub Slowik"},
+          {"name":"林彰洋","nation":"日本","stats":0,"position":[""],"staff":"GK","attr":"GK","attrDes":"GK","caps":0,"lineups":0,"age":35,"number":33,"height":195,"ename":"Akihiro Hayashi"},
+          {"name":"彼岛优","nation":"日本","stats":0,"position":[""],"staff":"GK","attr":"GK","attrDes":"GK","caps":0,"lineups":0,"age":19,"number":0,"height":185,"ename":"Yu Kanoshima"},
+          {"name":"森重真人","nation":"日本","stats":71,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":18,"lineups":18,"goal":2,"age":35,"number":3,"height":183,"ename":"Masato Morishige"},
+          {"name":"长友佑都","club":"日本","nation":"日本","stats":71,"position":["LB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":16,"lineups":12,"age":36,"number":5,"height":170,"ename":"Yuto Nagatomo"},
+          {"name":"乌维尼","nation":"巴西","stats":65,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":0,"lineups":0,"age":31,"number":5,"height":187,"ename":"Bruno Uvini Bortolanca"},
+          {"name":"小川谅也","nation":"日本","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":0,"lineups":0,"age":26,"number":6,"height":182,"ename":"Ryoya Ogawa"},
+          {"name":"鈴木准弥","nation":"日本","stats":63,"position":["RB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":5,"lineups":3,"age":26,"number":28,"height":175,"ename":"Junya Suzuki"},
+          {"name":"冈崎慎","nation":"日本","stats":63,"position":["RB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":7,"lineups":4,"age":24,"number":29,"height":181,"ename":"Makoto Okazaki"},
+          {"name":"木本恭生","nation":"日本","stats":68,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":20,"lineups":19,"age":29,"number":30,"height":183,"ename":"Yasuki Kimoto"},
+          {"name":"中村帆高","nation":"日本","stats":62,"position":["LB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":19,"lineups":10,"age":25,"number":37,"height":177,"ename":"Hotaka Nakamura"},
+          {"name":"冈庭愁人","nation":"日本","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":0,"lineups":0,"age":23,"number":39,"height":0,"ename":"Shuto Okaniwa"},
+          {"name":"東宏樹","nation":"日本","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":0,"lineups":0,"age":18,"number":42,"height":0,"ename":"Renta Higashi"},
+          {"name":"梶浦勇辉","nation":"日本","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":0,"lineups":0,"age":18,"number":43,"height":0,"ename":"Yuki Kajiura"},
+          {"name":"佳史扶","nation":"日本","stats":62,"position":["LB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":8,"lineups":3,"age":21,"number":49,"height":174,"ename":"Kashifu Bangynagande"},
+          {"name":"特里维森","nation":"巴西","stats":67,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":9,"lineups":8,"age":25,"number":50,"height":185,"ename":"Henrique Trevisan"},
+          {"name":"三田启贵","nation":"日本","stats":66,"position":["CM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":14,"lineups":5,"goal":1,"assist":1,"age":32,"number":7,"height":173,"ename":"Hirotaka Mita"},
+          {"name":"高萩洋次郎","nation":"日本","stats":63,"position":["CM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":8,"lineups":3,"age":36,"number":8,"height":183,"ename":"Yojiro Takahagi"},
+          {"name":"东庆悟","nation":"日本","stats":66,"position":["CAM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":15,"lineups":9,"age":32,"number":10,"height":178,"ename":"Keigo Higashi"},
+          {"name":"青木拓矢","nation":"日本","stats":67,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":21,"lineups":18,"age":33,"number":16,"height":179,"ename":"Aoki Takuya"},
+          {"name":"绀野和也","nation":"日本","stats":65,"position":["RM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":20,"lineups":10,"goal":1,"assist":1,"age":25,"number":17,"height":161,"ename":"Kazuya Konno"},
+          {"name":"品田爱斗","nation":"日本","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":0,"lineups":0,"age":23,"number":18,"height":180,"ename":"Manato Shinada"},
+          {"name":"莱昂德罗","nation":"巴西","stats":72,"position":["LW"],"staff":"FW","attr":"FW","attrDes":"FW","caps":8,"lineups":5,"goal":2,"age":29,"number":20,"height":177,"ename":"Weverson Leandro Oliveira Moura"},
+          {"name":"渡边凌磨","nation":"日本","stats":67,"position":["LM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":23,"lineups":15,"goal":3,"age":26,"number":23,"height":175,"ename":"Ryoma Watanabe"},
+          {"name":"安部柊斗","nation":"日本","stats":68,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":22,"lineups":22,"goal":3,"assist":1,"age":25,"number":31,"height":171,"ename":"Shuto ABE"},
+          {"name":"平川怜","nation":"日本","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":0,"lineups":0,"age":22,"number":40,"height":176,"ename":"Rei Hirakawa"},
+          {"name":"松木 玖生","club":"日本U23","nation":"日本","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":16,"lineups":15,"age":19,"number":44,"height":178,"ename":"Kuryu Matsuki"},
+          {"name":"安田虎士朗","nation":"","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":0,"lineups":0,"age":19,"number":45,"height":0,"ename":"Kojiro Yasuda"},
+          {"name":"荒井 悠汰","nation":"日本","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":0,"lineups":0,"age":18,"number":48,"height":174,"ename":"Yuta Arai"},
+          {"name":"奥利维拉","nation":"巴西","stats":72,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":18,"lineups":16,"goal":2,"assist":4,"age":32,"number":9,"height":179,"ename":"Diego Queiroz de Oliveira"},
+          {"name":"永井谦佑","nation":"日本","stats":67,"position":["RW"],"staff":"FW","attr":"FW","attrDes":"FW","caps":21,"lineups":13,"assist":1,"age":33,"number":11,"height":178,"ename":"Kensuke Nagai","description":"速度快"},
+          {"name":"阿代尔顿","nation":"巴西","stats":68,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":21,"lineups":15,"goal":6,"assist":1,"age":32,"number":15,"height":176,"ename":"Adailton dos Santos da Silva"},
+          {"name":"山下敬大","nation":"日本","stats":65,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":16,"lineups":7,"age":26,"number":19,"height":184,"ename":"Keita Yamashita"}
+        ]
+      },
+      "鸟栖沙岩": {
+        "players": [
+          {"name":"守田达弥","nation":"日本","stats":0,"position":[""],"staff":"GK","attr":"GK","attrDes":"GK","caps":0,"lineups":0,"age":32,"number":1,"height":191,"ename":"Tatsuya Morita"},
+          {"name":"韩艺勋","nation":"韩国","stats":0,"position":[""],"staff":"GK","attr":"GK","attrDes":"GK","caps":0,"lineups":0,"age":20,"number":21,"height":0,"ename":"Ye-hoon Ueom"},
+          {"name":"冈本昌弘","nation":"日本","stats":0,"position":["GK"],"staff":"GK","attr":"GK","attrDes":"GK","caps":5,"lineups":5,"age":39,"number":31,"height":184,"ename":"Masahiro Okamoto"},
+          {"name":"朴一圭","nation":"韩国","stats":69,"position":["GK"],"staff":"GK","attr":"GK","attrDes":"GK","caps":21,"lineups":21,"age":33,"number":40,"height":180,"ename":"Park Ir-Kyu"},
+          {"name":"板橋 洋青","nation":"日本","stats":0,"position":[""],"staff":"GK","attr":"GK","attrDes":"GK","caps":0,"lineups":0,"age":21,"number":0,"height":185,"ename":"Yosei Itahashi"},
+          {"name":"饭野七圣","nation":"日本","stats":66,"position":["RM"],"staff":"DF","attr":"DF","attrDes":"DF","caps":16,"lineups":16,"goal":1,"assist":2,"age":26,"number":2,"height":173,"ename":"Nanasei Iino"},
+          {"name":"奥马里","nation":"黎巴嫩","stats":67,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":3,"lineups":1,"age":34,"number":3,"height":187,"ename":"Joan Oumari"},
+          {"name":"迭戈","nation":"巴西","stats":65,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":20,"lineups":19,"goal":2,"assist":1,"age":27,"number":5,"height":183,"ename":"Diego Jara Rodrigues"},
+          {"name":"中野 伸哉","nation":"日本","stats":61,"position":["LB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":15,"lineups":9,"goal":1,"age":19,"number":13,"height":173,"ename":"Shinya Nakano"},
+          {"name":"黄锡镐","nation":"韩国","stats":69,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":14,"lineups":12,"goal":1,"age":33,"number":20,"height":182,"ename":"Hwang Seok Ho"},
+          {"name":"田代雅也","nation":"日本","stats":65,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":20,"lineups":20,"age":29,"goal":4,"number":30,"height":185,"ename":"Masaya Tashiro"},
+          {"name":"石井快征","nation":"日本","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":3,"lineups":2,"age":22,"number":33,"height":174,"ename":"Kaisei ishii"},
+          {"name":"原田亘","nation":"日本","stats":0,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":21,"lineups":15,"age":26,"number":42,"height":178,"ename":"Wataru Harada"},
+          {"name":"岛川俊郎","nation":"日本","stats":64,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":8,"lineups":6,"age":32,"number":4,"height":180,"ename":"Toshio Shimakawa"},
+          {"name":"福田晃斗","nation":"日本","stats":65,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":20,"lineups":19,"goal":3,"assist":4,"age":30,"number":6,"height":170,"ename":"Akito Fukuta"},
+          {"name":"中野嘉大","nation":"日本","stats":67,"position":["CM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":10,"lineups":5,"age":29,"number":7,"height":176,"ename":"Yoshihiro Nakano"},
+          {"name":"本田 風智","nation":"日本","stats":64,"position":["CM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":13,"lineups":6,"goal":4,"assist":1,"age":21,"number":8,"height":170,"ename":"Fuchi Honda"},
+          {"name":"小野裕二","nation":"日本","stats":64,"position":["CAM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":19,"lineups":8,"goal":1,"assist":2,"age":30,"number":10,"height":170,"ename":"Yuji Ono"},
+          {"name":"宫代大圣","nation":"日本","stats":65,"position":["ST"],"staff":"MF","attr":"MF","attrDes":"MF","caps":11,"lineups":7,"goal":3,"age":22,"number":11,"height":178,"ename":"Taisei Miyashiro"},
+          {"name":"藤田直之","nation":"日本","stats":68,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":18,"lineups":6,"goal":2,"assist":2,"age":35,"number":14,"height":175,"ename":"Naoyuki Fujita"},
+          {"name":"梶谷政仁","nation":"日本","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":0,"lineups":0,"age":22,"number":15,"height":0,"ename":"Yukihito Kajiya"},
+          {"name":"菊地泰智","nation":"日本","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":18,"lineups":15,"age":23,"number":23,"height":0,"ename":"Taichi Kikuchi"},
+          {"name":"小泉庆","nation":"日本","stats":66,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":22,"lineups":20,"goal":1,"assist":1,"age":27,"number":37,"height":173,"ename":"Koizumi Kei"},
+          {"name":"堀米勇辉","nation":"日本","stats":59,"position":["RM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":18,"lineups":15,"goal":2,"assist":2,"age":30,"number":44,"height":168,"ename":"Yuki Horigome","description":"速度特别快"},
+          {"name":"森谷贤太郎","nation":"日本","stats":65,"position":["CM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":11,"lineups":6,"age":34,"number":47,"height":173,"ename":"Kentaro Moriya"},
+          {"name":"荒木 駿太","nation":"日本","stats":0,"position":[""],"staff":"FW","attr":"FW","attrDes":"FW","caps":17,"lineups":5,"age":23,"number":16,"height":169,"ename":"Shunta Araki"},
+          {"name":"西川 润","nation":"日本","stats":0,"position":[""],"staff":"FW","attr":"FW","attrDes":"FW","caps":0,"lineups":0,"age":20,"number":18,"height":180,"ename":"Jun Nishikawa"},
+          {"name":"垣田裕晖","nation":"日本","stats":70,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":19,"lineups":8,"goal":6,"assist":1,"age":25,"number":19,"height":186,"ename":"Yuki Kakita"},
+          {"name":"岩崎悠人","nation":"日本","stats":62,"position":["LW"],"staff":"FW","attr":"FW","attrDes":"FW","caps":19,"lineups":19,"goal":2,"assist":1,"age":24,"number":29,"height":172,"ename":"Yuto Iwasaki"}
+        ]
+      },
+      "札幌冈萨多": {
+        "players": [
+          {"name":"菅野孝宪","nation":"日本","stats":66,"position":["GK"],"staff":"GK","attr":"GK","attrDes":"GK","caps":14,"lineups":14,"age":38,"number":1,"height":178,"ename":"Takanori Sugeno"},
+          {"name":"松原修平","nation":"日本","stats":0,"position":[""],"staff":"GK","attr":"GK","attrDes":"GK","caps":0,"lineups":0,"age":30,"number":21,"height":183,"ename":"Shuhei Matsubara"},
+          {"name":"大谷幸辉","nation":"日本","stats":0,"position":[""],"staff":"GK","attr":"GK","attrDes":"GK","caps":0,"lineups":0,"age":33,"number":22,"height":185,"ename":"Koki Otani"},
+          {"name":"中野小次郎","nation":"日本","stats":62,"position":["GK"],"staff":"GK","attr":"GK","attrDes":"GK","caps":9,"lineups":8,"age":23,"number":34,"height":200,"ename":"Kojiro Nakano"},
+          {"name":"田中 駿汰","nation":"日本","stats":68,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":20,"lineups":19,"goal":1,"age":25,"number":2,"height":183,"ename":"Shunta Tanaka"},
+          {"name":"福森晃斗","nation":"日本","stats":73,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":17,"lineups":16,"assist":3,"age":30,"number":5,"height":183,"ename":"Akito Fukumori"},
+          {"name":"西 大伍","nation":"日本","stats":69,"position":["RB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":15,"lineups":7,"age":35,"number":20,"height":176,"ename":"Daigo NISHI"},
+          {"name":"中村东雅","nation":"日本","stats":59,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":14,"lineups":7,"age":22,"number":24,"height":186,"ename":"Toya Nakamura"},
+          {"name":"冈村大八","nation":"日本","stats":65,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":20,"lineups":14,"goal":3,"age":25,"number":50,"height":183,"ename":"Daihachi Okamura"},
+          {"name":"菅大辉","nation":"日本","stats":68,"position":["LM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":25,"lineups":22,"goal":3,"age":24,"number":4,"height":171,"ename":"Daiki Suga"},
+          {"name":"高岭朋树","nation":"日本","stats":65,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":16,"lineups":15,"goal":1,"assist":1,"age":25,"number":6,"height":177,"ename":"Tomoki Takamine"},
+          {"name":"费尔南德斯","nation":"巴西","stats":68,"position":["RM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":20,"lineups":18,"goal":2,"assist":2,"age":28,"number":7,"height":174,"ename":"Lucas Fernandes"},
+          {"name":"深井一希","nation":"日本","stats":67,"position":["CM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":21,"lineups":14,"goal":2,"age":27,"number":8,"height":177,"ename":"Fukai Kazuki"},
+          {"name":"金子拓郎","nation":"日本","stats":67,"position":["ST"],"staff":"MF","attr":"MF","attrDes":"MF","caps":22,"lineups":20,"goal":5,"assist":2,"age":25,"number":9,"height":178,"ename":"Takuro Kaneko"},
+          {"name":"宫泽裕树","nation":"日本","stats":65,"position":["CM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":19,"lineups":18,"goal":1,"age":33,"number":10,"height":182,"ename":"Hiroki MIYAZAWA"},
+          {"name":"青木亮太","nation":"日本","stats":64,"position":["RM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":26,"lineups":17,"goal":4,"assist":2,"age":26,"number":11,"height":174,"ename":"Ryota Aoki"},
+          {"name":"驹井善成","nation":"日本","stats":68,"position":["CM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":23,"lineups":23,"goal":2,"age":30,"number":14,"height":168,"ename":"Yoshiaki Komai"},
+          {"name":"檀崎龙孔","nation":"日本","stats":0,"position":["CM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":7,"lineups":2,"age":22,"number":17,"height":174,"ename":"Riku Danzaki"},
+          {"name":"加布里埃尔·哈维尔","nation":"巴西","stats":68,"position":["CAM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":22,"lineups":13,"goal":2,"age":29,"number":18,"height":170,"ename":"Gabriel Augusto Xavier"},
+          {"name":"荒野拓马","nation":"日本","stats":66,"position":["CM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":20,"lineups":16,"goal":1,"age":29,"number":27,"height":180,"ename":"Takuma Arano"},
+          {"name":"小柏刚","nation":"日本","stats":65,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":5,"lineups":4,"age":24,"number":19,"height":167,"ename":"Tsuyoshi Ogashiwa"},
+          {"name":"兴梠 慎三","nation":"日本","stats":65,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":8,"lineups":8,"goal":1,"age":36,"number":23,"height":175,"ename":"Shinzo Koroki"},
+          {"name":"米兰·图契克","nation":"斯洛文尼亚","stats":64,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":13,"lineups":7,"goal":1,"age":26,"number":32,"height":186,"ename":"Milan Tucic"}
+        ]
+      },
+      "大阪钢巴": {
+        "players": [
+          {"name":"东口顺昭","nation":"日本","stats":69,"position":["GK"],"staff":"GK","attr":"GK","attrDes":"GK","caps":3,"lineups":3,"age":36,"number":1,"height":184,"ename":"Higashiguchi Masaki"},
+          {"name":"加藤大智","nation":"日本","stats":61,"position":["GK"],"staff":"GK","attr":"GK","attrDes":"GK","caps":5,"lineups":5,"age":25,"number":21,"height":180,"ename":"Taichi Kato"},
+          {"name":"一森纯","nation":"日本","stats":64,"position":["GK"],"staff":"GK","attr":"GK","attrDes":"GK","caps":11,"lineups":11,"age":31,"number":22,"height":182,"ename":"Jun Ichimori"},
+          {"name":"石川慧","nation":"日本","stats":63,"position":["GK"],"staff":"GK","attr":"GK","attrDes":"GK","caps":7,"lineups":7,"age":30,"number":25,"height":185,"ename":"Kei Ishikawa"},
+          {"name":"福冈将太","nation":"日本","stats":66,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":9,"lineups":7,"age":27,"number":2,"height":180,"ename":"Shota Fukuoka"},
+          {"name":"昌子源","club":"日本","nation":"日本","stats":71,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":16,"lineups":15,"assist":1,"age":30,"number":3,"height":182,"ename":"Gen Shoji"},
+          {"name":"藤春广辉","nation":"日本","stats":66,"position":["LB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":15,"lineups":8,"goal":2,"age":34,"number":4,"height":175,"ename":"Hiroki Fujiharu"},
+          {"name":"三浦弦太","nation":"日本","stats":72,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":22,"lineups":20,"goal":1,"assist":1,"age":27,"number":5,"height":183,"ename":"Genta Miura"},
+          {"name":"高尾瑠","nation":"日本","stats":66,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":13,"lineups":10,"age":26,"number":13,"height":181,"ename":"Ryu Takao"},
+          {"name":"权敬源","club":"韩国","nation":"韩国","stats":72,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":11,"lineups":11,"goal":1,"age":30,"number":20,"height":189,"ename":"Kwon Kyung Won"},
+          {"name":"黑川圭介","nation":"日本","stats":63,"position":["LB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":20,"lineups":18,"goal":2,"age":25,"number":24,"height":173,"ename":"Keisuke Kurokawa"},
+          {"name":"柳澤 亘","nation":"日本","stats":58,"position":["RM"],"staff":"DF","attr":"DF","attrDes":"DF","caps":18,"lineups":12,"goal":1,"age":26,"number":26,"height":178,"ename":"Ko Yanagisawa"},
+          {"name":"朱世钟","nation":"韩国","stats":67,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":8,"lineups":4,"age":32,"number":6,"height":176,"ename":"Ju Se Jong"},
+          {"name":"小野濑康介","nation":"日本","stats":68,"position":["RM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":18,"lineups":18,"goal":3,"age":29,"number":8,"height":177,"ename":"Kosuke Onose"},
+          {"name":"仓田秋","nation":"日本","stats":67,"position":["CM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":14,"lineups":9,"age":34,"number":10,"height":172,"ename":"Shu Kurata"},
+          {"name":"福田涌矢","nation":"日本","stats":65,"position":["LM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":14,"lineups":6,"goal":2,"age":23,"number":14,"height":176,"ename":"Yuya Fukuda"},
+          {"name":"齐藤未月","club":"日本U23","nation":"日本","stats":71,"position":["CAM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":17,"lineups":13,"assist":1,"age":23,"number":15,"height":166,"ename":"Mitsuki Saito"},
+          {"name":"奥野耕平","nation":"日本","stats":65,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":23,"lineups":11,"goal":2,"assist":1,"age":22,"number":17,"height":174,"ename":"Kohei Okuno"},
+          {"name":"达万","nation":"巴西","stats":0,"position":["CM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":17,"lineups":15,"goal":3,"age":26,"number":23,"height":177,"ename":"Dawhan Fran Urano da Purificacao Oliveir"},
+          {"name":"山本悠树","nation":"日本","stats":69,"position":["CM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":10,"lineups":7,"goal":2,"age":25,"number":29,"height":173,"ename":"Hiroyuki Yamamoto"},
+          {"name":"中村 仁郎","club":"日本U19","nation":"日本","stats":0,"position":["CM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":13,"lineups":6,"age":19,"number":41,"height":165,"ename":"Jiro Nakamura"},
+          {"name":"石毛秀树","nation":"日本","stats":0,"position":["CM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":18,"lineups":13,"age":28,"number":48,"height":170,"ename":"Hideki Ishige"},
+          {"name":"莱安德罗·佩雷拉","nation":"巴西","stats":69,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":19,"lineups":7,"goal":2,"assist":2,"age":31,"number":9,"height":190,"ename":"Leandro Marcos Pereira"},
+          {"name":"威灵顿·达席尔瓦","nation":"巴西","stats":67,"position":["RW"],"staff":"FW","attr":"FW","attrDes":"FW","caps":13,"lineups":4,"goal":2,"age":29,"number":11,"height":170,"ename":"Wellington Alves da Silva"},
+          {"name":"帕特里克","nation":"巴西","stats":69,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":20,"lineups":13,"goal":6,"assist":1,"age":35,"number":18,"height":189,"ename":"Anderson Patrick Aguiar Oliveira"},
+          {"name":"坂本一彩","club":"日本U19","nation":"日本","stats":0,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":10,"lineups":5,"age":18,"number":32,"height":174,"ename":"Isa Sakamoto"},
+          {"name":"山见 大登","nation":"","stats":0,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":24,"lineups":16,"goal":3,"assist":1,"age":23,"number":37,"height":0,"ename":"Hiroto Yamami"},
+          {"name":"宇佐美贵史","nation":"日本","stats":69,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":4,"lineups":3,"age":30,"number":39,"height":178,"ename":"Takashi Usami"}
+        ],
+        "euroOdd": {
+          "澳门": ["3.30", "3.28", "2.00", "3.68", "3.30", "1.90"],
+          "立博": ["3.10", "3.10", "2.10", "3.90", "3.25", "1.83"],
+          "韦德": ["3.30", "3.20", "2.10", "3.90", "3.40", "1.85"]
+        },
+        "asiaOdd": {
+          "初盘": ["0.80", "+0.25", "1.08"],
+          "终盘": ["0.99", "-0.5", "0.89"]
+        },
+        "asiaDaxiao": {
+          "初盘": ["1.03", "2.25", "0.83"],
+          "终盘": ["1.01", "2.5", "0.87"]
+        },
+        "matchTime": "2022-07-02 18:00:00"
+      },
+      "湘南海洋": {
+        "players": [
+          {"name":"谷晃生","club":"日本","nation":"日本","stats":69,"position":["GK"],"staff":"GK","attr":"GK","attrDes":"GK","caps":20,"lineups":20,"age":22,"number":1,"height":190,"ename":"Kosei Tani"},
+          {"name":"富居大树","nation":"日本","stats":62,"position":["GK"],"staff":"GK","attr":"GK","attrDes":"GK","caps":6,"lineups":6,"age":33,"number":23,"height":183,"ename":"Daiki Tomii"},
+          {"name":"杉冈大晖","club":"日本U20","nation":"日本","stats":65,"position":["LB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":22,"lineups":20,"goal":1,"assist":3,"age":24,"number":2,"height":182,"ename":"Daiki Sugioka"},
+          {"name":"石原广教","nation":"日本","stats":67,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":22,"lineups":17,"assist":2,"age":23,"number":3,"height":169,"ename":"Hirokazu Ishihara"},
+          {"name":"舘 幸希","nation":"日本","stats":64,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":16,"lineups":11,"age":25,"number":4,"height":173,"ename":"Koki Tachi"},
+          {"name":"田中聪","club":"日本U17","nation":"日本","stats":66,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":19,"lineups":14,"assist":1,"age":20,"number":7,"height":172,"ename":"Satoshi Tanaka"},
+          {"name":"大野和成","nation":"日本","stats":63,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":15,"lineups":11,"age":33,"number":8,"height":180,"ename":"Kazunari Ono"},
+          {"name":"山本修斗","nation":"日本","stats":64,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":14,"lineups":13,"goal":1,"age":37,"number":16,"height":180,"ename":"Shuto Yamamoto"},
+          {"name":"大岩一贵","nation":"日本","stats":64,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":25,"lineups":23,"age":33,"number":22,"height":182,"ename":"Kazuki Oiwa"},
+          {"name":"古林将太","nation":"日本","stats":64,"position":["RM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":12,"lineups":11,"age":31,"number":5,"height":173,"ename":"Shota Kobayashi"},
+          {"name":"冈本拓也","nation":"日本","stats":66,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":5,"lineups":5,"age":30,"number":6,"height":175,"ename":"Takuya Okamoto"},
+          {"name":"山田直辉","nation":"日本","stats":65,"position":["CAM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":18,"lineups":8,"goal":2,"age":32,"number":10,"height":168,"ename":"Naoki Yamada"},
+          {"name":"濑川祐辅","nation":"日本","stats":67,"position":["CAM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":23,"lineups":16,"goal":2,"assist":1,"age":28,"number":13,"height":170,"ename":"Yusuke Segawa"},
+          {"name":"茨田阳生","nation":"日本","stats":65,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":21,"lineups":16,"age":31,"number":14,"height":173,"ename":"Akimi Barada"},
+          {"name":"米本拓司","nation":"日本","stats":68,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":21,"lineups":15,"age":32,"number":15,"height":177,"ename":"Takuji Yonemoto"},
+          {"name":"畑大雅","nation":"日本","stats":63,"position":["LM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":13,"lineups":10,"age":20,"number":26,"height":175,"ename":"Taiga Hata"},
+          {"name":"永木亮太","nation":"日本","stats":66,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":11,"lineups":5,"age":34,"number":41,"height":173,"ename":"Ryota Nagaki"},
+          {"name":"高桥谅","nation":"日本","stats":64,"position":["LM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":15,"lineups":10,"age":29,"number":42,"height":171,"ename":"Ryo Takahashi"},
+          {"name":"韦林顿","nation":"巴西","stats":68,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":24,"lineups":10,"goal":1,"age":34,"number":9,"height":188,"ename":"Wellington Luis de Sousa"},
+          {"name":"埃尔尤努西","nation":"挪威","stats":67,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":21,"lineups":12,"goal":1,"age":34,"number":11,"height":172,"ename":"Tarik Elyounossi"},
+          {"name":"大桥佑纪","nation":"日本","stats":65,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":23,"lineups":11,"goal":2,"assist":2,"age":26,"number":17,"height":178,"ename":"Yuki Ohashi"},
+          {"name":"町野修斗","nation":"日本","stats":66,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":25,"lineups":14,"goal":10,"age":23,"number":18,"height":184,"ename":"Shuto Machino"},
+          {"name":"池田昌生","nation":"日本","stats":66,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":18,"lineups":10,"goal":6,"age":23,"number":27,"height":176,"ename":"Masaki Ikeda"}
+        ]
+      },
+      "清水鼓动": {
+        "players": [
+          {"name":"大久保択生","nation":"日本","stats":64,"position":["GK"],"staff":"GK","attr":"GK","attrDes":"GK","caps":5,"lineups":5,"age":33,"number":1,"height":190,"ename":"Takuo Okubo"},
+          {"name":"权田修一","club":"日本","nation":"日本","stats":67,"position":["GK"],"staff":"GK","attr":"GK","attrDes":"GK","caps":20,"lineups":20,"age":33,"number":21,"height":187,"ename":"Shuichi Gonda"},
+          {"name":"立田悠悟","nation":"日本","stats":66,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":19,"lineups":15,"age":24,"number":2,"height":191,"ename":"Yugo Tatsuta"},
+          {"name":"原辉绮","nation":"日本","stats":67,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":17,"lineups":14,"goal":1,"assist":1,"age":24,"number":4,"height":180,"ename":"Teruki Hara"},
+          {"name":"瓦尔多","nation":"巴西","stats":67,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":8,"lineups":8,"goal":1,"age":30,"number":5,"height":183,"ename":"Andrevaldo de Jesus dos Santos,Valdo"},
+          {"name":"片山瑛一","nation":"日本","stats":64,"position":["LB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":21,"lineups":15,"goal":1,"age":31,"number":7,"height":180,"ename":"Eiichi Katayama"},
+          {"name":"铃木义宜","nation":"日本","stats":69,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":22,"lineups":21,"goal":1,"assist":1,"age":30,"number":50,"height":184,"ename":"Yoshinori Suzuki"},
+          {"name":"罗纳尔多·索萨","nation":"巴西","stats":68,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":9,"lineups":7,"age":26,"number":3,"height":175,"ename":"Ronaldo Da Silva Souza"},
+          {"name":"竹内凉","nation":"日本","stats":67,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":15,"lineups":12,"age":31,"number":6,"height":173,"ename":"Ryo Takeuchi"},
+          {"name":"松冈大起","nation":"日本","stats":66,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":13,"lineups":4,"age":21,"number":8,"height":170,"ename":"Daiki Matsuoka"},
+          {"name":"中山克广","nation":"日本","stats":67,"position":["RM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":19,"lineups":13,"goal":4,"age":26,"number":11,"height":177,"ename":"Katsuhiro Nakayama"},
+          {"name":"宫本航汰","nation":"日本","stats":62,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":19,"lineups":15,"age":26,"number":13,"height":177,"ename":"Kota Miyamoto"},
+          {"name":"岸本武流","nation":"日本","stats":65,"position":["RB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":11,"lineups":6,"age":25,"number":15,"height":174,"ename":"Takeru Kishimoto"},
+          {"name":"西泽健太","nation":"日本","stats":69,"position":["RM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":10,"lineups":6,"age":26,"number":16,"height":171,"ename":"Kenta Nishizawa"},
+          {"name":"神谷优太","nation":"日本","stats":65,"position":["LM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":24,"lineups":13,"goal":1,"assist":4,"age":25,"number":17,"height":176,"ename":"Yuta Kamiya"},
+          {"name":"白崎凌兵","nation":"日本","stats":66,"position":["CAM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":19,"lineups":17,"goal":1,"age":29,"number":18,"height":181,"ename":"Ryohei Shirasaki"},
+          {"name":"铃木唯人","club":"日本U23","nation":"日本","stats":65,"position":["CAM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":20,"lineups":17,"goal":3,"assist":2,"age":21,"number":23,"height":175,"ename":"Yuito Suzuki"},
+          {"name":"滝裕太","nation":"日本","stats":65,"position":["CAM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":9,"lineups":0,"age":23,"number":26,"height":168,"ename":"Yuta Taki"},
+          {"name":"高洛尼","club":"科索沃","nation":"科索沃","stats":70,"position":["CAM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":14,"lineups":6,"goal":3,"age":30,"number":32,"height":184,"ename":"Benjamin Kololli"},
+          {"name":"蒂亚戈-桑塔纳","nation":"巴西","stats":71,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":16,"lineups":13,"goal":6,"assist":2,"age":29,"number":9,"height":184,"ename":"Thiago Santos Santana"},
+          {"name":"卡利尼奥斯","nation":"巴西","stats":69,"position":["LW"],"staff":"FW","attr":"FW","attrDes":"FW","caps":9,"lineups":3,"age":28,"number":10,"height":174,"ename":"Carlinhos Junior"},
+          {"name":"后藤优介","nation":"日本","stats":67,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":8,"lineups":6,"age":29,"number":14,"height":170,"ename":"Yusuke Goto"},
+          {"name":"吴世勋","nation":"韩国","stats":69,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":13,"lineups":3,"goal":1,"age":23,"number":20,"height":0,"ename":"Oh Se-Hun"},
+          {"name":"山原怜音","nation":"","stats":54,"position":["RB"],"staff":"DF","attr":"FW","attrDes":"FW","caps":25,"lineups":22,"assist":3,"age":23,"number":29,"height":0,"ename":"Reon Yamahara"}
+        ],
+        "matchTime": "2022-07-02 18:00:00",
+        "euroOdd": {
+          "澳门": ["3.95", "3.80", "1.70", "3.95", "3.80", "1.70"],
+          "立博": ["4.80", "3.60", "1.60", "4.25", "3.70", "1.67"],
+          "韦德": ["5.25", "3.80", "1.57", "4.40", "3.80", "1.67"]
+        },
+        "asiaOdd": {
+          "初盘": ["0.90", "+1", "0.98"],
+          "终盘": ["0.99", "+0.75", "0.89"]
+        },
+        "asiaDaxiao": {
+          "初盘": ["0.88", "2.5", "0.98"],
+          "终盘": ["0.84", "2.75", "1.04"]
+        }
       }
     },
     "KLeague": {
@@ -995,6 +1322,8 @@
         "players": [
           { "name": "梁韩彬", "club": "FC首尔", "nation": "韩国", "stats": 69, "position": ["GK"], "staff": "GK", "caps": 11, "lineups": 11, "age": 30, "number": 21, "height": 195 },
           { "name": "尹钟奎", "club": "FC首尔", "nation": "韩国", "stats": 63, "position": ["RB"], "staff": "DF", "caps": 12, "lineups": 12, "age": 24, "number": 23, "height": 173 },
+          { "name": "李相珉", "club": "FC首尔", "nation": "韩国", "stats": 60, "position": ["CB"], "staff": "DF", "caps": 8, "lineups": 6, "age": 24, "number": 3, "height": 188, "description": "替补" },
+          { "name": "黄贤秀", "club": "FC首尔", "nation": "韩国", "stats": 67, "position": ["CB"], "staff": "DF", "caps": 3, "lineups": 1, "age": 26, "number": 2, "height": 183, "description": "替补" },
           { "name": "李韩汎", "club": "FC首尔", "nation": "韩国", "stats": 60, "position": ["CB"], "staff": "DF", "caps": 13, "lineups": 13, "age": 19, "number": 20, "height": 188, "description": "U22成员" },
           { "name": "奥斯马尔", "club": "FC首尔", "nation": "西班牙", "stats": 72, "position": ["CB"], "staff": "DF", "caps": 12, "lineups": 12, "age": 33, "number": 5, "height": 192, "isForeign": 1 },
           { "name": "李太锡", "club": "FC首尔", "nation": "韩国", "stats": 60, "position": ["LB"], "staff": "DF", "caps": 11, "lineups": 8, "age": 19, "number": 88 },
@@ -1007,16 +1336,11 @@
           { "name": "权成尹", "club": "FC首尔", "nation": "韩国", "stats": 60, "position": ["RM"], "staff": "MF", "caps": 6, "lineups": 3, "age": 21, "number": 24 },
           { "name": "朴东真", "club": "FC首尔", "nation": "韩国", "stats": 60, "position": ["ST"], "staff": "FW", "caps": 5, "lineups": 4, "age": 27, "number": 50 },
           { "name": "金镇治", "club": "FC首尔", "nation": "韩国", "stats": 64, "position": ["LB"], "staff": "DF", "caps": 13, "lineups": 6, "age": 23, "number": 17 },
-          { "name": "姜成进", "club": "FC首尔", "nation": "韩国", "stats": 60, "position": ["LM"], "staff": "MF", "caps": 12, "lineups": 8, "age": 19, "number": 29, "description": "19岁小将" }
-        ],
-        "euroOdd": {
-          "澳门": ["2.11", "3.27", "3.08", "2.35", "3.20", "2.72"]
-        },
-        "asiaOdd": {
-          "初盘": ["0.98", "-0.25", "0.90"],
-          "终盘": ["0.78", "-0", "1.10"]
-        },
-        "matchTime": "2022-05-28 15:30:00"
+          { "name": "姜成进", "club": "FC首尔", "nation": "韩国", "stats": 60, "position": ["LM"], "staff": "MF", "caps": 12, "lineups": 8, "age": 19, "number": 29, "description": "19岁小将" },
+          { "name": "高约翰", "club": "FC首尔", "nation": "韩国", "stats": 69, "position": ["CM"], "staff": "MF", "caps": 7, "lineups": 6, "assist":2, "age": 34, "number": 13, "description": "伤停中" },
+          { "name": "池东沅", "club": "FC首尔", "nation": "韩国", "stats": 65, "position": ["ST"], "staff": "FW", "caps": 3, "lineups": 0, "age": 31, "number": 10, "description": "伤停中" },
+          { "name": "黄仁范", "club": "FC首尔", "nation": "韩国", "stats": 78, "position": ["CAM"], "staff": "MF", "caps": 0, "lineups": 0, "age": 25, "number": 6, "description": "备战中" }
+        ]
       },
       "金泉尚武": {
         "players": [
@@ -1036,8 +1360,23 @@
           { "name": "文智焕", "club": "金泉尚武", "nation": "韩国", "stats": 60, "position": ["CDM"], "staff": "MF", "caps": 6, "lineups": 4, "age": 27, "number": 6 },
           { "name": "明俊在", "club": "金泉尚武", "nation": "韩国", "stats": 62, "position": ["LM"], "staff": "MF", "caps": 4, "lineups": 1, "age": 27, "number": 10, "description": "速度比较快的边路球员" },
           { "name": "金址泫", "club": "金泉尚武", "nation": "韩国", "stats": 67, "position": ["ST"], "staff": "FW", "caps": 8, "lineups": 2, "age": 25, "number": 28, "description": "曹圭成的替补" },
-          { "name": "具圣润", "club": "金泉尚武", "nation": "韩国", "stats": 64, "position": ["GK"], "staff": "GK", "caps": 8, "lineups": 8, "age": 27, "number": 25 }
-        ]
+          { "name": "具圣润", "club": "金泉尚武", "nation": "韩国", "stats": 64, "position": ["GK"], "staff": "GK", "caps": 8, "lineups": 8, "age": 27, "number": 25 },
+          { "name": "池彦学", "club": "金泉尚武", "nation": "韩国", "stats": 60, "position": ["ST"], "staff": "FW", "caps": 4, "lineups": 2, "age": 28, "number": 29 }
+        ],
+        "euroOdd": {
+          "澳门": ["2.80", "3.30", "2.25", "2.95", "3.30", "2.15"],
+          "立博": ["2.87", "3.10", "2.25", "3.20", "3.20", "2.05"],
+          "韦德": ["2.88", "3.25", "2.38", "3.20", "3.20", "2.20"]
+        },
+        "asiaOdd": {
+          "初盘": ["0.80", "+0.25", "1.08"],
+          "终盘": ["1.02", "+0.25", "0.86"]
+        },
+        "asiaDaxiao": {
+          "初盘": ["1.05", "2.5", "0.81"],
+          "终盘": ["0.96", "2.5", "0.91"]
+        },
+        "matchTime": "2022-07-02 18:00:00"
       },
       "蔚山现代": {
         "players": [
@@ -1092,7 +1431,8 @@
           { "name": "李泳俊", "club": "水原城", "nation": "韩国", "stats": 55, "position": ["ST"], "staff": "FW", "caps": 9, "lineups": 8, "age": 19, "number": 99, "description":"19岁小将" },
           { "name": "金承俊", "club": "水原城", "nation": "韩国", "stats": 64, "position": ["ST"], "staff": "FW", "caps": 10, "lineups": 3, "age": 27, "number": 19, "goal": 3, "assist": 2 },
           { "name": "维尔德维克", "club": "水原城", "nation": "南非", "stats": 70, "position": ["ST"], "staff": "FW", "caps": 11, "lineups": 5, "age": 30, "number": 9, "goal": 2, "assist": 1 },
-          { "name": "郑宰容", "club": "水原城", "nation": "韩国", "stats": 60, "position": ["CM"], "staff": "MF", "caps": 11, "lineups": 1, "age": 31, "number": 8, "goal": 2, "assist": 0 }
+          { "name": "郑宰容", "club": "水原城", "nation": "韩国", "stats": 60, "position": ["CM"], "staff": "MF", "caps": 11, "lineups": 1, "age": 31, "number": 8, "goal": 2, "assist": 0 },
+          { "name": "穆里略-恩里克", "club": "水原城", "nation": "巴西", "stats": 68, "position": ["CAM"], "staff": "MF", "caps": 6, "lineups": 3, "goal": 1, "age": 27, "number": 10 }
         ],
         "euroOdd": {
           "澳门": ["4.10", "3.71", "1.68", "4.55", "3.90", "1.58"],
@@ -1105,7 +1445,7 @@
         },
         "matchTime": "2022-05-28 18:00:00"
       },
-      "济州联": {
+      "济州联队": {
         "players": [
           { "name": "金东俊", "club": "济州联", "nation": "韩国", "stats": 60, "position": ["GK"], "staff": "GK", "caps": 13, "lineups": 13, "age": 27, "number": 1, "height": 189 },
           { "name": "金奉首", "club": "济州联", "nation": "韩国", "stats": 59, "position": ["RCB"], "staff": "DF", "caps": 13, "lineups": 9, "age": 22, "number": 30, "height": 184 },
@@ -1123,8 +1463,23 @@
           { "name": "秋相熏", "club": "济州联", "nation": "韩国", "stats": 55, "position": ["RW"], "staff": "FW", "caps": 8, "lineups": 8, "age": 22, "number": 37 },
           { "name": "金周孔", "club": "济州联", "nation": "韩国", "stats": 55, "position": ["LW"], "staff": "FW", "caps": 13, "lineups": 2, "age": 26, "number": 19, "goal": 3 },
           { "name": "郑宇宰", "club": "济州联", "nation": "韩国", "stats": 67, "position": ["LB"], "staff": "DF", "caps": 11, "lineups": 9, "age": 29, "number": 22, "description": "比较全面" },
-          { "name": "赵圣俊", "club": "济州联", "nation": "韩国", "stats": 64, "position": ["RW"], "staff": "FW", "caps": 7, "lineups": 0, "age": 31, "number": 7, "assist": 3, "description": "替补反击" }
-        ]
+          { "name": "赵圣俊", "club": "济州联", "nation": "韩国", "stats": 64, "position": ["RW"], "staff": "FW", "caps": 7, "lineups": 0, "age": 31, "number": 7, "assist": 3, "description": "替补反击" },
+          { "name": "具滋哲", "club": "济州联", "nation": "韩国", "stats": 76, "position": ["CDM"], "staff": "MF", "caps": 2, "lineups": 2, "age": 33, "number": 42, "description": "长期受伤" }
+        ],
+        "euroOdd": {
+          "澳门": ["2.06", "3.10", "3.40", "2.15", "3.10", "3.15"],
+          "立博": ["2.15", "3.00", "3.20", "2.05", "3.10", "3.30"],
+          "韦德": ["2.05", "3.20", "3.50", "2.15", "3.25", "3.50"]
+        },
+        "asiaOdd": {
+          "初盘": ["1.04", "-0.5", "0.84"],
+          "终盘": ["0.85", "-0.25", "1.03"]
+        },
+        "asiaDaxiao": {
+          "初盘": ["0.93", "2.25", "0.93"],
+          "终盘": ["0.83", "2.25", "1.04"]
+        },
+        "matchTime": "2022-07-02 17:00:00"
       },
       "全北现代": {
         "players": [
@@ -1185,18 +1540,23 @@
           { "name": "李珍镕", "club": "大邱FC", "nation": "韩国", "stats": 60, "position": ["CDM"], "staff": "MF", "caps": 15, "lineups": 15, "age": 21, "number": 26 },
           { "name": "塞西尼亚", "club": "大邱FC", "nation": "巴西", "stats": 75, "position": ["CAM"], "staff": "MF", "caps": 11, "lineups": 10, "age": 32, "number": 11, "goal": 5, "assist": 4 },
           { "name": "高在贤", "club": "大邱FC", "nation": "韩国", "stats": 60, "position": ["ST"], "staff": "FW", "caps": 11, "lineups": 10, "age": 23, "number": 17, "goal": 5, "assist": 1 },
-          { "name": "铃木圭太", "club": "大邱FC", "nation": "日本", "stats": 60, "position": ["CAM"], "staff": "MF", "caps": 14, "lineups": 7, "age": 24, "number": 18, "goal": 0, "assist": 2 }
+          { "name": "铃木圭太", "club": "大邱FC", "nation": "日本", "stats": 60, "position": ["CAM"], "staff": "MF", "caps": 14, "lineups": 7, "age": 24, "number": 18, "goal": 0, "assist": 2 },
+          { "name": "赵进优", "club": "大邱FC", "nation": "韩国", "stats": 60, "position": ["CB"], "staff": "DF", "caps": 15, "lineups": 12, "age": 22, "number": 66, "goal": 1 }
         ],
         "euroOdd": {
-          "澳门": ["2.37", "3.22", "2.68", "2.90", "3.05", "2.30"],
-          "立博": ["2.55", "2.90", "2.60", "2.87", "3.00", "2.30"],
-          "韦德": ["2.45", "3.13", "2.88", "3.00", "3.25", "2.38"]
+          "澳门": ["2.03", "3.27", "3.27", "2.20", "3.40", "2.80"],
+          "立博": ["2.05", "3.20", "3.25", "2.15", "3.25", "2.90"],
+          "韦德": ["2.05", "3.30", "3.50", "2.20", "3.40", "3.13"]
         },
         "asiaOdd": {
-          "初盘": ["0.82", "-0", "1.06"],
-          "终盘": ["0.84", "+0.25", "1.06"]
+          "初盘": ["0.82", "-0.25", "1.06"],
+          "终盘": ["0.95", "-0.25", "0.94"]
         },
-        "matchTime": "2022-05-29 18:00:00"
+        "asiaDaxiao": {
+          "初盘": ["0.93", "2.25", "0.93"],
+          "终盘": ["1.00", "2.75", "0.87"]
+        },
+        "matchTime": "2022-07-03 18:00:00"
       },
       "浦项制铁": {
         "players": [
@@ -1210,13 +1570,28 @@
           { "name": "郑在熙", "club": "浦项制铁", "nation": "韩国", "stats": 65, "position": ["RM"], "staff": "MF", "caps": 14, "lineups": 6, "age": 28, "number": 27, "goal": 3 },
           { "name": "金承大", "club": "浦项制铁", "nation": "韩国", "stats": 65, "position": ["CAM"], "staff": "MF", "caps": 5, "lineups": 3, "age": 31, "number": 12 },
           { "name": "李侊赫", "club": "浦项制铁", "nation": "韩国", "stats": 65, "position": ["LM"], "staff": "MF", "caps": 13, "lineups": 9, "age": 26, "number": 22, "height": 169 },
-          { "name": "奥格布", "club": "浦项制铁", "nation": "尼日利亚", "stats": 68, "position": ["ST"], "staff": "FW", "caps": 6, "lineups": 4, "age": 31, "goal": 0, "number": 90, "height": 185 },
+          { "name": "莫赛斯-奥格布", "club": "浦项制铁", "nation": "尼日利亚", "stats": 68, "position": ["ST"], "staff": "FW", "caps": 6, "lineups": 4, "age": 31, "goal": 0, "number": 90, "height": 185 },
           { "name": "亚历山大-格兰特", "club": "浦项制铁", "nation": "澳大利亚", "stats": 68, "position": ["CB"], "staff": "DF", "caps": 9, "lineups": 9, "age": 28, "number": 5 },
           { "name": "申填浩", "club": "浦项制铁", "nation": "韩国", "stats": 71, "position": ["CDM"], "staff": "MF", "caps": 10, "lineups": 10, "age": 33, "number": 6, "goal": 1, "assist": 2 },
           { "name": "高映埈", "club": "浦项制铁", "nation": "韩国", "stats": 60, "position": ["CAM"], "staff": "MF", "caps": 14, "lineups": 11, "age": 20, "number": 11, "goal": 2 },
           { "name": "林相协", "club": "浦项制铁", "nation": "韩国", "stats": 65, "position": ["LM"], "staff": "MF", "caps": 13, "lineups": 11, "age": 33, "number": 7, "goal": 3 },
-          { "name": "许榕埈", "club": "浦项制铁", "nation": "韩国", "stats": 64, "position": ["ST"], "staff": "FW", "caps": 9, "lineups": 2, "age": 29, "number": 8, "goal": 5 }
-        ]
+          { "name": "许榕埈", "club": "浦项制铁", "nation": "韩国", "stats": 64, "position": ["ST"], "staff": "FW", "caps": 9, "lineups": 2, "age": 29, "number": 8, "goal": 5 },
+          { "name": "万德森-卡瓦略", "club": "浦项制铁", "nation": "巴西", "stats": 60, "position": ["RM"], "staff": "FW", "caps": 7, "lineups": 3, "goal": 1, "age": 29, "number": 8 }
+        ],
+        "euroOdd": {
+          "澳门": ["2.98", "3.18", "2.20", "2.98", "3.18", "2.20"],
+          "立博": ["3.00", "3.00", "2.20", "3.10", "3.10", "2.15"],
+          "韦德": ["3.00", "3.10", "2.38", "3.30", "3.25", "2.20"]
+        },
+        "asiaOdd": {
+          "初盘": ["0.79", "+0.25", "1.09"],
+          "终盘": ["0.98", "+0.25", "0.90"]
+        },
+        "asiaDaxiao": {
+          "初盘": ["0.93", "2.25", "0.93"],
+          "终盘": ["0.80", "2.25", "1.07"]
+        },
+        "matchTime": "2022-07-02 18:00:00"
       },
       "江原FC": {
         "players": [
@@ -1243,7 +1618,7 @@
           { "name": "辛苍武", "club": "江原FC", "nation": "韩国", "stats": 63, "position": ["ST"], "staff": "FW", "caps": 5, "lineups": 0, "age": 29, "number": 14 }
         ]
       },
-      "仁川联": {
+      "仁川联队": {
         "players": [
           { "name": "金东宪", "club": "仁川联", "nation": "韩国", "stats": 60, "position": ["GK"], "staff": "GK", "attr": "GK", "attrDes": "", "caps": 12, "number": 21, "age": 25, "lineups": 12, "height": 186 },
           { "name": "姜敏寿", "club": "仁川联", "nation": "韩国", "stats": 60, "position": ["RCB"], "staff": "DF", "attr": "CB", "attrDes": "", "caps": 11, "number": 4, "age": 36, "lineups": 8, "height": 186 },
@@ -1254,7 +1629,6 @@
           { "name": "李东洙", "club": "仁川联", "nation": "韩国", "stats": 62, "position": ["CDM"], "staff": "MF", "attr": "CDM", "attrDes": "", "caps": 12, "number": 16, "age": 28, "lineups": 3 },
           { "name": "李周勇", "club": "仁川联", "nation": "韩国", "stats": 64, "position": ["LB"], "staff": "DF", "attr": "LB", "attrDes": "", "caps": 4, "number": 32, "age": 29, "lineups": 3 },
           { "name": "埃利亚斯-阿吉拉尔", "club": "仁川联", "nation": "哥斯达黎加", "stats": 71, "position": ["RW"], "staff": "FW", "attr": "CAM", "attrDes": "", "caps": 12, "number": 10, "age": 30, "lineups": 10 },
-          { "name": "穆戈萨", "club": "仁川联", "nation": "黑山", "stats": 72, "position": ["ST"], "staff": "FW", "attr": "ST", "attrDes": "", "caps": 15, "goal": 11, "number": 9, "age": 30, "lineups": 14, "height": 188, "description": "进球大杀器" },
           { "name": "金镀赫", "club": "仁川联", "nation": "韩国", "stats": 67, "position": ["LW"], "staff": "FW", "attr": "CAM", "attrDes": "", "caps": 15, "assist": 2, "number": 7, "age": 30, "lineups": 13, "height": 174 },
           { "name": "李太熙", "club": "仁川联", "nation": "韩国", "stats": 60, "position": ["GK"], "staff": "GK", "attr": "GK", "attrDes": "", "caps": 3, "number": 1, "age": 27, "lineups": 3, "height": 188 },
           { "name": "吴反锡", "club": "仁川联", "nation": "韩国", "stats": 68, "position": ["CB"], "staff": "DF", "attr": "CB", "attrDes": "", "caps": 10, "number": 26, "age": 34, "lineups": 10, "height": 189 },
@@ -1328,8 +1702,23 @@
           {"name":"柳舟安","nation":"韩国","stats":0,"position":[""],"staff":"FW","attr":"FW","attrDes":"FW","caps":0,"lineups":0,"age":24,"number":16,"height":177,"ename":"Yoo Joo An"},
           {"name":"吴贤揆","nation":"韩国","stats":0,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":16,"lineups":10,"goal": 2, "assist": 1,"age":21,"number":18,"height":185,"ename":"Oh Hyun Gyu"},
           {"name":"柳承佑","nation":"韩国","stats":65,"position":["RW"],"staff":"FW","attr":"FW","attrDes":"FW","caps":11,"lineups":8,"age":29,"number":30,"height":174,"ename":"Ryu Seungwoo"},
-          {"name":"顾敏熙","nation":"韩国","stats":0,"position":[""],"staff":"FW","attr":"FW","attrDes":"FW","caps":0,"lineups":0,"age":20,"number":99,"height":184,"ename":"Min seo Koo"}
-        ]
+          {"name":"顾敏熙","nation":"韩国","stats":0,"position":[""],"staff":"FW","attr":"FW","attrDes":"FW","caps":0,"lineups":0,"age":20,"number":99,"height":184,"ename":"Min seo Koo"},
+          {"name":"斋藤学","nation":"日本","stats":66,"position":["LM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":10,"lineups":3,"age":32,"number":19,"height":169,"ename":"Manabu Saito"}
+        ],
+        "euroOdd": {
+          "澳门": ["2.38", "3.13", "2.73", "2.02", "3.13", "3.42"],
+          "立博": ["2.30", "2.90", "2.90", "1.95", "3.00", "3.75"],
+          "韦德": ["2.50", "3.13", "2.80", "2.00", "3.25", "3.90"]
+        },
+        "asiaOdd": {
+          "初盘": ["0.81", "-0", "1.07"],
+          "终盘": ["1.03", "-0.5", "0.87"]
+        },
+        "asiaDaxiao": {
+          "初盘": ["0.97", "2.25", "0.89"],
+          "终盘": ["1.07", "2.25", "0.80"]
+        },
+        "matchTime": "2022-07-03 18:30:00"
       }
     },
     "Eliteserien": {
@@ -1351,12 +1740,26 @@
           { "name": "卡布兰", "club": "维京", "nation": "瑞典", "stats": 65, "position": ["LW"], "staff": "FW", "caps": 9, "lineups": 5, "age": 28, "number": 9, "isForeign": 1 },
           { "name": "塞布隆森", "club": "维京", "nation": "日本", "stats": 0, "position": ["LW"], "staff": "FW", "caps": 11, "lineups": 4, "age": 25, "number": 7 },
           { "name": "M-特拉奥雷", "club": "维京", "nation": "几内亚", "stats": 65, "position": ["ST"], "staff": "FW", "caps": 6, "lineups": 0, "age": 22, "number": 24 }
-        ]
+        ],
+        "matchTime": "2022-07-04 00:00:00",
+        "euroOdd": {
+          "澳门": ["1.65", "3.78", "4.05", "1.90", "3.60", "3.20"],
+          "立博": ["1.95", "3.25", "3.30", "1.87", "3.50", "3.40"],
+          "韦德": ["2.00", "3.40", "3.60", "1.90", "3.80", "3.50"]
+        },
+        "asiaOdd": {
+          "初盘": ["1.03", "-0.5", "0.85"],
+          "终盘": ["0.96", "-0.5", "0.93"]
+        },
+        "asiaDaxiao": {
+          "初盘": ["0.89", "2.5", "0.97"],
+          "终盘": ["0.94", "3", "0.94"]
+        }
       },
       "汉坎": {
         "players": [
           { "name": "Halvor", "club": "汉坎", "nation": "挪威", "stats": 73, "position": ["CB"], "staff": "DF", "caps": 9, "lineups": 6, "age": 28, "number": 7 },
-          { "name": "库鲁凯", "club": "汉坎", "nation": "土耳其", "stats": 72, "position": ["CB"], "staff": "DF", "caps": 7, "lineups": 5, "age": 28, "number": 10 },
+          { "name": "库鲁凯", "club": "汉坎", "nation": "土耳其", "stats": 72, "position": ["CB"], "staff": "DF", "caps": 7, "lineups": 5, "age": 28, "number": 58 },
           { "name": "Vetle", "club": "汉坎", "nation": "挪威", "stats": 75, "position": ["CB"], "staff": "DF", "caps": 14, "lineups": 13, "age": 29, "number": 28 },
           { "name": "A.Melgalvis", "club": "汉坎", "nation": "挪威", "stats": 73, "position": ["RB", "LB"], "staff": "DF", "caps": 11, "lineups": 10, "age": 32, "number": 2 },
           { "name": "苏吉斯坦德", "club": "汉坎", "nation": "挪威", "stats": 75, "position": ["CDM"], "staff": "MF", "caps": 14, "lineups": 13, "age": 30 },
@@ -1365,36 +1768,24 @@
           { "name": "K.Eriksen", "club": "汉坎", "nation": "挪威", "stats": 68, "position": ["RW"], "staff": "FW", "caps": 15, "lineups": 12, "age": 34 },
           { "name": "恩克鲁德", "club": "汉坎", "nation": "挪威", "stats": 69, "position": ["ST"], "staff": "FW", "caps": 18, "lineups": 12, "age": 26 },
           { "name": "斯里德恩斯", "club": "汉坎", "nation": "挪威", "stats": 70, "position": ["LW"], "staff": "FW", "caps": 15, "lineups": 10, "age": 25 },
-          { "name": "哈根", "club": "汉坎", "nation": "危地马拉", "stats": 70, "position": ["GK"], "staff": "GK", "caps": 19, "lineups": 17, "age": 27, "number": 4 }
-        ]
-      },
-      "斯托姆加斯特": {
-        "players": [
-          { "name": "迈拉", "club": "斯托姆加斯特", "nation": "挪威", "stats": 69, "position": ["GK"], "staff": "GK", "caps": 9, "lineups": 9, "age": 25, "number": 1 },
-          { "name": "贡纳松", "club": "斯托姆加斯特", "nation": "挪威", "stats": 64, "position": ["RB"], "staff": "DF", "caps": 6, "lineups": 5, "age": 31, "number": 5 },
-          { "name": "莱夫松", "club": "斯托姆加斯特", "nation": "冰岛", "stats": 60, "position": ["CB"], "staff": "DF", "caps": 5, "lineups": 5, "age": 23, "number": 2, "height": 193, "isForeign": 1 },
-          { "name": "瓦尔斯维克", "club": "斯托姆加斯特", "nation": "挪威", "stats": 69, "position": ["CB"], "staff": "DF", "caps": 9, "lineups": 9, "age": 29, "number": 71, "height": 196 },
-          { "name": "格罗高", "club": "斯托姆加斯特", "nation": "挪威", "stats": 64, "position": ["LB"], "staff": "DF", "caps": 9, "lineups": 9, "age": 28, "number": 4 },
-          { "name": "施腾格尔", "club": "斯托姆加斯特", "nation": "挪威", "stats": 67, "position": ["RM"], "staff": "MF", "caps": 9, "lineups": 9, "age": 26, "number": 10 },
-          { "name": "约翰-霍弗", "club": "斯托姆加斯特", "nation": "挪威", "stats": 69, "position": ["CDM"], "staff": "MF", "caps": 9, "lineups": 9, "age": 21, "number": 8, "description": "超新星，绝对核心" },
-          { "name": "克拉斯尼奇", "club": "斯托姆加斯特", "nation": "挪威", "stats": 65, "position": ["LM"], "staff": "MF", "caps": 9, "lineups": 4, "age": 21, "number": 92 },
-          { "name": "斯特内维克", "club": "斯托姆加斯特", "nation": "挪威", "stats": 62, "position": ["RW"], "staff": "FW", "caps": 9, "lineups": 8, "age": 22, "number": 7 },
-          { "name": "萨尔韦森", "club": "斯托姆加斯特", "nation": "挪威", "stats": 65, "position": ["ST"], "staff": "FW", "caps": 9, "lineups": 6, "age": 26, "number": 88 },
-          { "name": "Ole Kristian Enersen", "club": "斯托姆加斯特", "nation": "挪威", "stats": 65, "position": ["LW"], "staff": "FW", "caps": 7, "lineups": 4, "age": 19, "number": 84 },
-          { "name": "托克斯塔", "club": "斯托姆加斯特", "nation": "挪威", "stats": 64, "position": ["RW"], "staff": "FW", "caps": 9, "lineups": 2, "age": 30, "number": 11 },
-          { "name": "维尔斯维克", "club": "斯托姆加斯特", "nation": "挪威", "stats": 66, "position": ["RB"], "staff": "DF", "caps": 9, "lineups": 8, "age": 33, "number": 26 },
-          { "name": "古利克森", "club": "斯托姆加斯特", "nation": "挪威", "stats": 65, "position": ["CM"], "staff": "MF", "caps": 7, "lineups": 4, "age": 18, "number": 17 }
+          { "name": "哈根", "club": "汉坎", "nation": "危地马拉", "stats": 70, "position": ["GK"], "staff": "GK", "caps": 19, "lineups": 17, "age": 27, "number": 96 },
+          { "name": "Vetle Skjaervik", "club": "汉坎", "nation": "挪威", "stats": 0, "position": ["CB"], "staff": "CB", "caps": 11, "lineups": 10, "age": 21, "number": 8 },
+          { "name": "K.Onsrud", "club": "汉坎", "nation": "挪威", "stats": 0, "position": ["CM"], "staff": "MF", "caps": 7, "lineups": 4, "age": 27, "number": 7 }
         ],
+        "matchTime": "2022-07-04 00:00:00",
         "euroOdd": {
-          "立博": ["3.25", "3.40", "1.95", "2.80", "3.30", "2.15"],
-          "韦德": ["3.40", "3.90", "2.00", "3.00", "3.60", "2.30"],
-          "Bet365": ["3.60", "3.60", "1.95", "3.10", "3.60", "2.25"]
+          "澳门": ["3.11", "3.63", "1.93", "2.82", "3.63", "2.06"],
+          "立博": ["3.40", "3.40", "1.87", "2.90", "3.30", "2.10"],
+          "韦德": ["3.90", "3.80", "1.80", "3.00", "3.60", "2.15"]
         },
         "asiaOdd": {
-          "初盘": ["0.86", "+0.5", "1.02"],
-          "终盘": ["0.90", "+0.25", "0.99"]
+          "初盘": ["1.02", "+0.5", "0.86"],
+          "终盘": ["0.97", "+0.25", "0.92"]
         },
-        "matchTime": "2022-05-29 00:00:00"
+        "asiaDaxiao": {
+          "初盘": ["0.90", "2.75", "0.96"],
+          "终盘": ["0.90", "2.75", "0.98"]
+        }
       },
       "海于格松": {
         "players": [
@@ -1498,7 +1889,211 @@
           {"name":"耶尔森","nation":"挪威","stats":0,"position":["LM"],"staff":"FW","attr":"FW","attrDes":"FW","caps":0,"lineups":0,"age":30,"number":7,"height":175,"ename":"Torgil Gjertsen"},
           {"name":"摩西·马瓦","nation":"挪威","stats":0,"position":[""],"staff":"FW","attr":"FW","attrDes":"FW","caps":0,"lineups":0,"age":26,"number":11,"height":185,"ename":"Moses Mawa"},
           {"name":"D.阿格博","nation":"加纳","stats":0,"position":[""],"staff":"FW","attr":"FW","attrDes":"FW","caps":0,"lineups":0,"age":22,"number":24,"height":0,"ename":"David Agbo"}
+        ],
+        "matchTime": "2022-07-04 00:00:00",
+        "euroOdd": {
+          "澳门": ["3.50", "3.45", "1.87", "3.15", "3.30", "2.05"],
+          "立博": ["5.80", "3.90", "1.44", "3.00", "3.20", "2.10"],
+          "韦德": ["6.50", "4.33", "1.45", "3.13", "3.50", "2.15"]
+        },
+        "asiaOdd": {
+          "初盘": ["0.93", "+1", "0.95"],
+          "终盘": ["0.99", "+0.25", "0.90"]
+        },
+        "asiaDaxiao": {
+          "初盘": ["0.93", "2.75", "0.93"],
+          "终盘": ["0.88", "2.5", "1.00"]
+        }
+      },
+      "博多格林特": {
+        "players": [
+          {"name":"尼基塔·海金","nation":"俄罗斯","stats":0,"position":["GK"],"staff":"GK","attr":"GK","attrDes":"GK","caps":11,"lineups":11,"age":27,"number":12,"height":188,"ename":"Nikita Haikin"},
+          {"name":"桑普斯特德","nation":"冰岛","stats":70,"position":["RB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":11,"lineups":11,"goal":1,"age":24,"number":3,"height":180,"ename":"Alfons Sampsted"},
+          {"name":"赫伊布罗滕","nation":"挪威","stats":71,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":11,"lineups":10,"assist":1,"age":27,"number":4,"height":184,"ename":"Marius Christopher Hoibraten"},
+          {"name":"维姆邦戈莫","nation":"挪威","stats":68,"position":["LB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":11,"lineups":10,"goal":1,"assist":2,"age":26,"number":5,"height":0,"ename":"Brice Wembangomo"},
+          {"name":"穆厄","club":"挪威","nation":"挪威","stats":71,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":10,"lineups":10,"goal":1,"age":31,"number":18,"height":184,"ename":"Brede Mathias Moe"},
+          {"name":"O.索尔巴肯","nation":"挪威","stats":72,"position":["LW"],"staff":"FW","attr":"FW","attrDes":"FW","caps":6,"lineups":3,"goal":1,"assist":3,"age":24,"number":9,"height":186,"ename":"Ola Solbakken"},
+          {"name":"雨果·维特勒森","nation":"挪威","stats":0,"position":["CAM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":11,"lineups":11,"goal":2,"age":22,"number":10,"height":177,"ename":"Hugo Vetlesen"},
+          {"name":"萨特纳斯","nation":"挪威","stats":74,"position":["CM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":9,"lineups":9,"goal":2,"assist":4,"age":30,"number":14,"height":187,"ename":"Ulrik Saltnes"},
+          {"name":"康拉德森","nation":"挪威","stats":66,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":4,"lineups":0,"age":32,"number":15,"height":183,"ename":"Anders Konradsen"},
+          {"name":"韦蒂","nation":"挪威","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":5,"lineups":1,"age":24,"number":17,"height":180,"ename":"Gaute Gaute Vetti"},
+          {"name":"埃利亚斯·哈根","nation":"挪威","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":11,"lineups":10,"assist":3,"age":22,"number":23,"height":188,"ename":"Elias Kristoffersen Hagen"},
+          {"name":"松德雷","nation":"挪威","stats":66,"position":["RM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":11,"lineups":5,"goal":1,"assist":1,"age":27,"number":27,"height":178,"ename":"Sondre Sorli"},
+          {"name":"科姆森","nation":"加纳","stats":67,"position":["RW"],"staff":"FW","attr":"FW","attrDes":"FW","caps":9,"lineups":4,"age":28,"number":77,"height":180,"ename":"Gilbert Koomson"},
+          {"name":"佩莱格里诺","nation":"挪威","stats":72,"position":["LW"],"staff":"FW","attr":"FW","attrDes":"FW","caps":10,"lineups":9,"goal":7,"assist":2,"age":32,"number":7,"height":190,"ename":"Amahl Pellegrino"},
+          {"name":"博尼费斯","nation":"尼日利亚","stats":0,"position":[""],"staff":"FW","attr":"FW","attrDes":"FW","caps":10,"lineups":3,"goal":1,"assist":1,"age":22,"number":8,"height":189,"ename":"Victor Boniface"},
+          {"name":"埃斯佩尤","nation":"挪威","stats":67,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":9,"lineups":7,"goal":3,"age":26,"number":11,"height":189,"ename":"Runar Espejord"}
         ]
+      },
+      "谢夫": {
+        "players": [
+          {"name":"奥维雷特夫","nation":"挪威","stats":0,"position":["GK"],"staff":"GK","attr":"GK","attrDes":"GK","caps":10,"lineups":10,"age":28,"number":20,"height":193,"ename":"Oystein Ovretveit"},
+          {"name":"T.Wichne","nation":"挪威","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":10,"lineups":10,"age":25,"number":2,"height":172,"ename":"Torje Wichne"},
+          {"name":"阿罗察","nation":"丹麦","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":9,"lineups":8,"age":27,"number":3,"height":187,"ename":"Daniel Arrocha"},
+          {"name":"克里斯蒂安·诺瓦克","nation":"挪威","stats":58,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":6,"lineups":0,"age":24,"number":4,"height":193,"ename":"Kristian Novak"},
+          {"name":"E.桑德贝格","nation":"挪威","stats":62,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":9,"lineups":2,"age":22,"number":5,"height":0,"ename":"Erik Tobias Sandberg"},
+          {"name":"科尔斯科根","nation":"挪威","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":10,"lineups":10,"age":21,"number":14,"height":184,"ename":"Ole Martin Kolskogen"},
+          {"name":"J.Norheim","nation":"挪威","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":10,"lineups":10,"age":27,"number":16,"height":191,"ename":"John Olav Norheim"},
+          {"name":"阿马杜-迪亚洛","nation":"几内亚","stats":63,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":9,"lineups":3,"age":32,"number":17,"height":171,"ename":"Mamadou Diallo"},
+          {"name":"马蒂亚斯·哈鲁普","nation":"丹麦","stats":68,"position":["LB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":10,"lineups":10,"age":26,"number":27,"height":178,"ename":"Mathias Haarup"},
+          {"name":"西姆西尔","nation":"土耳其","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":10,"lineups":7,"age":20,"number":58,"height":169,"ename":"Aral Simsir"},
+          {"name":"威奇曼","nation":"丹麦","stats":63,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":10,"lineups":10,"assist":2,"age":31,"number":6,"height":183,"ename":"Mathias Wichmann"},
+          {"name":"迈克尔·乌格兰","nation":"挪威","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":7,"lineups":1,"age":22,"number":8,"height":178,"ename":"Mikael Ugland"},
+          {"name":"布伦登","nation":"挪威","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":9,"lineups":9,"goal":1,"age":28,"number":15,"height":183,"ename":"Erik Naesbak Brenden"},
+          {"name":"阿尔维斯","nation":"佛得角","stats":0,"position":[""],"staff":"FW","attr":"FW","attrDes":"FW","caps":10,"lineups":10,"goal":1,"age":25,"number":7,"height":182,"ename":"Willis Furtado"},
+          {"name":"赫斯塔德","nation":"挪威","stats":0,"position":[""],"staff":"FW","attr":"FW","attrDes":"FW","caps":7,"lineups":7,"assist":1,"age":25,"number":9,"height":192,"ename":"Erlend Hustad"}
+        ],
+        "matchTime": "2022-07-02 22:00:00",
+        "euroOdd": {
+          "澳门": ["3.03", "3.50", "2.02", "3.03", "3.50", "2.02"],
+          "立博": ["2.60", "3.20", "2.40", "3.40", "3.40", "1.91"],
+          "韦德": ["2.70", "3.30", "2.50", "3.50", "3.60", "1.95"]
+        },
+        "asiaOdd": {
+          "初盘": ["1.03", "+0", "0.85"],
+          "终盘": ["0.88", "+0.5", "1.02"]
+        },
+        "asiaDaxiao": {
+          "初盘": ["0.85", "2.5", "1.01"],
+          "终盘": ["0.95", "2.75", "0.93"]
+        }
+      },
+      "奥德格伦兰": {
+        "players": [
+          {"name":"L.Wahlstedt","nation":"瑞典","stats":0,"position":["GK"],"staff":"GK","attr":"GK","attrDes":"GK","caps":12,"lineups":12,"age":23,"number":12,"height":190,"ename":"Leopold Wahlstedt"},
+          {"name":"鲁德","nation":"挪威","stats":67,"position":["RB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":10,"lineups":7,"age":38,"number":2,"height":182,"ename":"Espen Ruud"},
+          {"name":"巴凯","nation":"挪威","stats":58,"position":["LB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":11,"lineups":10,"assist":2,"age":21,"number":3,"height":0,"ename":"Josef Baccay"},
+          {"name":"布约尔图夫特","nation":"挪威","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":11,"lineups":11,"assist":2,"age":24,"number":4,"height":185,"ename":"Odin Luras Bjortuft"},
+          {"name":"伊万·梅西克","club":"斯洛伐克","nation":"斯洛伐克","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":3,"lineups":2,"age":21,"number":5,"height":186,"ename":"Ivan Mesik"},
+          {"name":"所罗门·奥乌苏","nation":"挪威","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":12,"lineups":12,"age":27,"number":17,"height":176,"ename":"Solomon Owusu"},
+          {"name":"S.奥斯","nation":"挪威","stats":59,"position":["CM"],"staff":"DF","attr":"DF","attrDes":"DF","caps":11,"lineups":0,"age":18,"number":18,"height":181,"ename":"Syver Aas","description":"替补"},
+          {"name":"斯蒂芬.哈根","nation":"挪威","stats":66,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":10,"lineups":10,"age":36,"number":21,"height":185,"ename":"Steffen Hagen"},
+          {"name":"丹尼斯·詹格尔","nation":"挪威","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":10,"lineups":2,"age":18,"number":24,"height":0,"ename":"Dennis Gjengaar"},
+          {"name":"勒克文","nation":"挪威","stats":65,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":5,"lineups":1,"age":34,"number":6,"height":177,"ename":"Magnus Lekven"},
+          {"name":"约根森","nation":"挪威","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":11,"lineups":8,"age":20,"number":7,"height":183,"ename":"Filip Ronningen Jorgensen"},
+          {"name":"罗兰森","club":"法罗群岛","nation":"法罗群岛","stats":64,"position":["RM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":10,"lineups":5,"age":30,"number":11,"height":187,"ename":"Gilli Sorensen"},
+          {"name":"康拉德·瓦伦","nation":"挪威","stats":64,"position":["RM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":12,"lineups":11,"age":22,"number":14,"height":180,"ename":"Conrad Wallem"},
+          {"name":"乔舒亚-基托拉诺","nation":"挪威","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":11,"lineups":11,"age":21,"number":16,"height":170,"ename":"Joshua Kitolano"},
+          {"name":"耶夫托维奇","nation":"塞尔维亚","stats":64,"position":["RW"],"staff":"FW","attr":"FW","attrDes":"FW","caps":12,"lineups":9,"goal":4,"age":29,"number":8,"height":184,"ename":"Milan Jevtovic"},
+          {"name":"马罗内·卡斯特拉蒂","club":"科索沃","nation":"科索沃","stats":63,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":6,"lineups":1,"age":31,"number":9,"height":180,"ename":"Flamur Kastrati"},
+          {"name":"奥涅卡奇·乌戈伍阿度","nation":"尼日利亚","stats":60,"position":["LW"],"staff":"FW","attr":"FW","attrDes":"FW","caps":6,"lineups":0,"age":25,"number":10,"height":182,"ename":"Onyekachi Hope Ugwuadu","description":"替补"},
+          {"name":"英厄布里格森","nation":"挪威","stats":63,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":10,"lineups":7,"goal":1,"age":26,"number":15,"height":170,"ename":"Mikael Ingebrigtsen"},
+          {"name":"T.劳利特森","nation":"挪威","stats":64,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":12,"lineups":10,"goal":5,"age":25,"number":20,"height":194,"ename":"Tobias Lauritsen"}
+        ],
+        "matchTime": "2022-07-03 00:00:00",
+        "euroOdd": {
+          "澳门": ["3.87", "3.78", "1.70", "3.90", "3.75", "1.70"],
+          "立博": ["3.70", "3.50", "1.80", "3.80", "3.60", "1.73"],
+          "韦德": ["3.90", "3.70", "1.83", "4.20", "3.90", "1.73"]
+        },
+        "asiaOdd": {
+          "初盘": ["0.82", "+0.5", "1.06"],
+          "终盘": ["0.87", "+0.75", "1.02"]
+        },
+        "asiaDaxiao": {
+          "初盘": ["0.91", "2.75", "0.95"],
+          "终盘": ["0.90", "3", "0.98"]
+        }
+      },
+      "利勒斯特罗姆": {
+        "players": [
+          {"name":"马德斯·克里斯蒂安森","nation":"挪威","stats":69,"position":["GK"],"staff":"GK","attr":"GK","attrDes":"GK","caps":12,"lineups":12,"age":22,"number":12,"height":186,"ename":"Mads Christiansen"},
+          {"name":"兰杰","nation":"挪威","stats":63,"position":["RB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":7,"lineups":6,"age":23,"number":2,"height":176,"ename":"Lars Mogstad Ranger"},
+          {"name":"科林·罗斯勒","nation":"挪威","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":3,"lineups":1,"age":22,"number":3,"height":186,"ename":"Colin Rosler"},
+          {"name":"埃斯彭·加纳斯","nation":"挪威","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":12,"lineups":12,"goal":1,"assist":1,"age":28,"number":4,"height":190,"ename":"Espen Bjornsen Garnas"},
+          {"name":"德拉格斯内斯","nation":"挪威","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":12,"lineups":12,"goal":2,"age":28,"number":5,"height":187,"ename":"Vetle Dragsnes"},
+          {"name":"彼得松","nation":"瑞典","stats":68,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":7,"lineups":6,"goal":2,"age":32,"number":24,"height":190,"ename":"Tom Pettersson"},
+          {"name":"埃古·奥布","nation":"尼日利亚","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":12,"lineups":12,"goal":3,"assist":1,"age":22,"number":30,"height":187,"ename":"Igoh Ogbu"},
+          {"name":"凯利宁","nation":"芬兰","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":5,"lineups":0,"age":24,"number":6,"height":186,"ename":"Kaan Kairinen","description":"替补"},
+          {"name":"I.Mathew","nation":"尼日利亚","stats":71,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":12,"lineups":12,"goal":2,"age":25,"number":8,"height":173,"ename":"Ifeanyi Matthew"},
+          {"name":"托比亚斯-斯文森","nation":"挪威","stats":66,"position":["LM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":9,"lineups":1,"age":23,"number":11,"height":172,"ename":"Tobias Hammer Svendsen","description":"替补，速度快"},
+          {"name":"奥森","nation":"挪威","stats":68,"position":["CAM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":11,"lineups":11,"assist":6,"age":31,"number":23,"height":182,"ename":"Gjermund Asen","description":"助攻王"},
+          {"name":"霍尔斯特","nation":"丹麦","stats":67,"position":["RM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":12,"lineups":3,"age":28,"number":77,"height":176,"ename":"Frederik Holst","description":"替补"},
+          {"name":"赫兰","nation":"挪威","stats":0,"position":[""],"staff":"FW","attr":"FW","attrDes":"FW","caps":6,"lineups":1,"goal":1,"assist":2,"age":32,"number":7,"height":186,"ename":"Pal Andre Helland"},
+          {"name":"阿科尔·亚当斯","nation":"尼日利亚","stats":0,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":12,"lineups":9,"goal":4,"assist":1,"age":22,"number":9,"height":184,"ename":"Akor Adams"},
+          {"name":"易卜拉希马伊","nation":"科索沃","stats":0,"position":[""],"staff":"FW","attr":"FW","attrDes":"FW","caps":12,"lineups":10,"goal":3,"assist":2,"age":27,"number":20,"height":178,"ename":"Ylldren Ibrahimaj"},
+          {"name":"弗里德容森","nation":"冰岛","stats":0,"position":[""],"staff":"FW","attr":"FW","attrDes":"FW","caps":11,"lineups":3,"goal":2,"age":29,"number":21,"height":195,"ename":"Holmbert Aron Fridjonsson"}
+        ]
+      },
+      "莫尔德": {
+        "players": [
+          {"name":"卡尔斯特伦","nation":"挪威","stats":67,"position":["GK"],"staff":"GK","attr":"GK","attrDes":"GK","caps":11,"lineups":11,"age":25,"number":1,"height":200,"ename":"Jacob Karlstrom"},
+          {"name":"比约尔巴克","nation":"挪威","stats":68,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":8,"lineups":7,"age":30,"number":2,"height":193,"ename":"Martin Bjornbak"},
+          {"name":"里萨","nation":"挪威","stats":66,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":11,"lineups":11,"age":24,"number":3,"height":188,"ename":"Birk Risa"},
+          {"name":"蒂德曼","nation":"丹麦","stats":67,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":10,"lineups":10,"age":28,"number":4,"height":189,"ename":"Benjamin Hansen"},
+          {"name":"西尼扬","nation":"冈比亚","stats":70,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":5,"lineups":5,"age":26,"number":5,"height":188,"ename":"Sheriff Sinyan"},
+          {"name":"埃林森","nation":"挪威","stats":67,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":0,"lineups":0,"age":27,"number":6,"height":180,"ename":"Martin Ellingsen"},
+          {"name":"埃里克·豪根","nation":"挪威","stats":65,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":8,"lineups":5,"age":25,"number":19,"height":180,"ename":"Eirik Haugan"},
+          {"name":"林内斯","nation":"挪威","stats":71,"position":["RB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":10,"lineups":10,"goal":2,"assist":1,"age":31,"number":21,"height":177,"ename":"Martin Linnes","description":"进攻属性强"},
+          {"name":"海于根","nation":"挪威","stats":69,"position":["LB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":10,"lineups":8,"goal":2,"assist":2,"age":28,"number":28,"height":188,"ename":"Kristoffer Haugen","description":"进攻属性强"},
+          {"name":"埃克雷姆","nation":"挪威","stats":73,"position":["CAM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":11,"lineups":10,"goal":3,"assist":5,"age":32,"number":7,"height":173,"ename":"Magnus Wolff Eikrem"},
+          {"name":"曼斯韦尔克","nation":"挪威","stats":68,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":10,"lineups":9,"goal":1,"age":20,"number":8,"height":0,"ename":"Sivert Heggheim Mannsverk"},
+          {"name":"布林希尔德森","nation":"挪威","stats":70,"position":["LM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":6,"lineups":5,"goal":1,"age":23,"number":11,"height":175,"ename":"Ola Brynhildsen"},
+          {"name":"克努德宗","nation":"挪威","stats":63,"position":["RM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":11,"lineups":4,"age":34,"number":14,"height":178,"ename":"Erling Knudtzon","description":"替补"},
+          {"name":"卡萨","nation":"挪威","stats":67,"position":["CM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":9,"lineups":4,"goal":2,"age":25,"number":15,"height":175,"ename":"Markus Kaasa"},
+          {"name":"侯赛因","nation":"挪威","stats":66,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":4,"lineups":3,"age":29,"number":16,"height":176,"ename":"Etzaz Muzafar Hussain"},
+          {"name":"泽克尼尼","nation":"挪威","stats":66,"position":["LM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":7,"lineups":3,"goal":1,"age":24,"number":17,"height":179,"ename":"Rafik Zekhnini"},
+          {"name":"格罗德姆","nation":"挪威","stats":67,"position":["CAM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":9,"lineups":5,"goal":4,"age":24,"number":22,"height":192,"ename":"Magnus Retsius Grodem"},
+          {"name":"布雷维克","nation":"挪威","stats":0,"position":["CAM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":10,"lineups":9,"assist":4,"age":22,"number":25,"height":186,"ename":"Emil Breivik"},
+          {"name":"戴维-弗法纳","nation":"科特迪瓦","stats":65,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":5,"lineups":3,"goal":3,"age":20,"number":9,"height":181,"ename":"David Datro Fofana","description":"速度快"}
+        ]
+      },
+      "斯托姆加斯特": {
+        "players": [
+          {"name":"迈拉","nation":"挪威","stats":69,"position":["GK"],"staff":"GK","attr":"GK","attrDes":"GK","caps":12,"lineups":12,"age":26,"number":1,"height":194,"ename":"Viljar Myhra"},
+          {"name":"莱夫松","nation":"冰岛","stats":60,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":8,"lineups":8,"age":24,"number":2,"height":193,"ename":"Ari Leifsson"},
+          {"name":"格罗高","nation":"挪威","stats":64,"position":["LB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":12,"lineups":12,"age":28,"number":4,"height":180,"ename":"Thomas Grogaard"},
+          {"name":"贡纳松","nation":"挪威","stats":64,"position":["LB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":7,"lineups":5,"age":31,"number":5,"height":188,"ename":"Niklas Gunnarsson"},
+          {"name":"维尔斯维克","nation":"挪威","stats":66,"position":["RB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":12,"lineups":11,"goal":1,"assist":2,"age":34,"number":26,"height":180,"ename":"Lars Christopher Vilsvik"},
+          {"name":"瓦尔斯维克","nation":"挪威","stats":69,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":12,"lineups":12,"age":29,"number":71,"height":196,"ename":"Gustav Valsvik"},
+          {"name":"Ole Kristian Enersen","nation":"挪威","stats":65,"position":["LW"],"staff":"DF","attr":"DF","attrDes":"DF","caps":9,"lineups":6,"goal":1,"age":20,"number":84,"height":0,"ename":"Ole Kristian Enersen"},
+          {"name":"杰克","nation":"尼日利亚","stats":65,"position":["LW"],"staff":"FW","attr":"MF","attrDes":"MF","caps":10,"lineups":6,"goal":2,"age":24,"number":6,"height":187,"ename":"Jack Ipalibo"},
+          {"name":"斯特内维克","nation":"挪威","stats":62,"position":["RW"],"staff":"FW","attr":"MF","attrDes":"MF","caps":11,"lineups":10,"assist":2,"age":22,"number":7,"height":185,"ename":"Halldor Stenevik"},
+          {"name":"约翰·霍夫","club":"挪威U21","nation":"挪威","stats":70,"position":["CAM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":12,"lineups":12,"goal":6,"assist":2,"age":22,"number":8,"height":177,"ename":"Johan Hove","description":"中场超新星"},
+          {"name":"斯腾格尔","nation":"挪威","stats":67,"position":["RM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":12,"lineups":12,"goal":1,"assist":2,"age":27,"number":10,"height":180,"ename":"Herman Stengel"},
+          {"name":"托克斯塔","nation":"挪威","stats":64,"position":["RW"],"staff":"FW","attr":"MF","attrDes":"MF","caps":11,"lineups":3,"goal":1,"age":31,"number":11,"height":185,"ename":"Kristoffer Tokstad","description":"替补"},
+          {"name":"托比亚斯·古利克森","nation":"挪威","stats":65,"position":["CM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":10,"lineups":5,"assist":1,"age":19,"number":17,"height":177,"ename":"Tobias Fjeld Gulliksen"},
+          {"name":"克拉斯尼奇","nation":"科索沃","stats":65,"position":["LM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":10,"lineups":5,"age":22,"number":92,"height":183,"ename":"Kreshnik Krasniqi"},
+          {"name":"弗雷迪","nation":"尼日利亚","stats":67,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":11,"lineups":4,"goal":2,"age":27,"number":9,"height":187,"ename":"Fred Friday"},
+          {"name":"萨尔维森","nation":"挪威","stats":65,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":12,"lineups":9,"goal":5,"assist":3,"age":26,"number":88,"height":186,"ename":"Lars-Jorgen Salvesen"}
+        ]
+      },
+      "奥勒松": {
+        "players": [
+          {"name":"格雷特布斯特","nation":"挪威","stats":68,"position":["GK"],"staff":"GK","attr":"GK","attrDes":"GK","caps":12,"lineups":12,"age":33,"number":1,"height":187,"ename":"Sten Michael Grytebust"},
+          {"name":"戈卢博维奇","nation":"塞尔维亚","stats":68,"position":["RB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":11,"lineups":10,"age":28,"number":2,"height":186,"ename":"Petar Golubovic"},
+          {"name":"福尔曼","nation":"瑞典","stats":66,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":0,"lineups":0,"age":32,"number":5,"height":187,"ename":"David Fallman"},
+          {"name":"舍尔贝契奇","nation":"波黑","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":12,"lineups":12,"age":24,"number":25,"height":194,"ename":"Besim Serbecic"},
+          {"name":"亚利桑大·安德森","nation":"丹麦","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":10,"lineups":9,"age":31,"number":30,"height":189,"ename":"Alexander Juel Andersen"},
+          {"name":"拉夫恩","nation":"挪威","stats":64,"position":["LB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":10,"lineups":3,"assist":2,"age":30,"number":33,"height":172,"ename":"Simen Rafn"},
+          {"name":"塞格贝格","nation":"挪威","stats":64,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":5,"lineups":2,"assist":1,"age":25,"number":6,"height":183,"ename":"Erlend Segberg"},
+          {"name":"内纳斯","nation":"佛得角","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":12,"lineups":10,"assist":1,"age":27,"number":7,"height":170,"ename":"Erikson Spinola Lima, Nenass"},
+          {"name":"海于根","nation":"挪威","stats":66,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":9,"lineups":5,"age":30,"number":8,"height":182,"ename":"Fredrik Haugen"},
+          {"name":"巴尔曼","nation":"挪威","stats":67,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":10,"lineups":8,"goal":1,"age":29,"number":10,"height":190,"ename":"Kristoffer Barmen"},
+          {"name":"努尔利","nation":"挪威","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":11,"lineups":8,"goal":1,"assist":3,"age":23,"number":11,"height":181,"ename":"Simen Bolkan Nordli"},
+          {"name":"卡勒瓦格","nation":"挪威","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":12,"lineups":7,"goal":1,"age":29,"number":14,"height":178,"ename":"Torbjorn Kallevag"},
+          {"name":"Kristoffer Odemarksbakken","nation":"挪威","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":11,"lineups":5,"goal":1,"assist":1,"age":27,"number":15,"height":181,"ename":"Kristoffer Odemarksbakken"},
+          {"name":"马塔","nation":"挪威","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":12,"lineups":12,"goal":3,"age":21,"number":19,"height":188,"ename":"Isak Dybvik Maatta"},
+          {"name":"查纳吉亚","nation":"克罗地亚","stats":67,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":8,"lineups":7,"age":28,"number":27,"height":176,"ename":"Dario Canadija"},
+          {"name":"努尔利","nation":"挪威","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":11,"lineups":8,"goal":1,"assist":3,"age":22,"number":11,"height":181,"ename":"S.Nordli"},
+          {"name":"亚力山大.阿米兹","nation":"丹麦","stats":0,"position":[""],"staff":"FW","attr":"FW","attrDes":"FW","caps":0,"lineups":0,"age":23,"number":9,"height":187,"ename":"Alexander Ammitzboll"},
+          {"name":"马马杜·迪奥","nation":"塞内加尔","stats":0,"position":[""],"staff":"FW","attr":"FW","attrDes":"FW","caps":0,"lineups":0,"age":21,"number":17,"height":0,"ename":"Mamadou Diaw"},
+          {"name":"海于根","nation":"挪威","stats":63,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":12,"lineups":12,"goal":6,"assist":1,"age":25,"number":22,"height":187,"ename":"Sigurd Haugen"}
+        ],
+        "matchTime": "2022-07-04 00:00:00",
+        "euroOdd": {
+          "澳门": ["2.03", "3.55", "2.98", "2.20", "3.45", "2.75"],
+          "立博": ["2.15", "3.30", "2.80", "2.15", "3.30", "2.87"],
+          "韦德": ["2.30", "3.40", "2.90", "2.20", "3.60", "2.90"]
+        },
+        "asiaOdd": {
+          "初盘": ["0.82", "-0", "1.06"],
+          "终盘": ["0.97", "-0.25", "0.92"]
+        },
+        "asiaDaxiao": {
+          "初盘": ["0.91", "2.75", "0.95"],
+          "终盘": ["1.04", "3", "0.84"]
+        }
       }
     },
     "BrazilSeriesA": {

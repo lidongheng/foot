@@ -58,11 +58,11 @@ function crawler (start_urls, headers = {}) {
             const [hostPrevenientMatch, awayPrevenientMatch] = tempData
             let count = 0
             for (let i = 0; i < listData0.length; i++) {
-              if (listData0[i].serial === hostPrevenientMatch[0].belongsToSerial) {
+              if (hostPrevenientMatch.length > 0 && listData0[i].serial === hostPrevenientMatch[0].belongsToSerial) {
                 listData0[i].hostPrevenientMatch = hostPrevenientMatch
                 count++
               }
-              if (listData0[i].serial === awayPrevenientMatch[0].belongsToSerial) {
+              if (awayPrevenientMatch.length > 0 && listData0[i].serial === awayPrevenientMatch[0].belongsToSerial) {
                 listData0[i].awayPrevenientMatch = awayPrevenientMatch
                 count++
               }

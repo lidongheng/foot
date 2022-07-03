@@ -5,8 +5,8 @@ const { League } = require('./class')
 const {
   qiutanHeaders
 } = require('./config/league')
-global.serial = '649'
-global.name = '法国'
+global.serial = '203'
+global.name = '神户胜利船'
 service({
   methods: 'GET',
   url: `http://zq.titan007.com/jsData/teamInfo/teamDetail/tdl${global.serial}.js?version=${dateFormat(new Date().getTime(), 'YYYYMMDDHH')}`,
