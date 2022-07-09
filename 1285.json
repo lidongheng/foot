@@ -1,0 +1,18 @@
+[
+  {"name":"迈拉","nation":"挪威","stats":69,"position":["GK"],"staff":"GK","attr":"GK","attrDes":"GK","caps":12,"lineups":12,"age":26,"number":1,"height":194,"ename":"Viljar Myhra"},
+  {"name":"莱夫松","nation":"冰岛","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":8,"lineups":8,"age":24,"number":2,"height":193,"ename":"Ari Leifsson"},
+  {"name":"格罗高","nation":"挪威","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":12,"lineups":12,"age":28,"number":4,"height":180,"ename":"Thomas Grogaard"},
+  {"name":"尼克拉斯·冈纳森","nation":"挪威","stats":64,"position":["LB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":0,"lineups":0,"age":31,"number":5,"height":188,"ename":"Niklas Gunnarsson"},
+  {"name":"维尔斯维克","nation":"挪威","stats":66,"position":["RB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":12,"lineups":11,"goal":1,"assist":2,"age":34,"number":26,"height":180,"ename":"Lars Christopher Vilsvik"},
+  {"name":"瓦尔斯维克","nation":"挪威","stats":69,"position":["CB"],"staff":"DF","attr":"DF","attrDes":"DF","caps":12,"lineups":12,"age":29,"number":71,"height":196,"ename":"Gustav Valsvik"},
+  {"name":"Ole Kristian Enersen","nation":"挪威","stats":0,"position":[""],"staff":"DF","attr":"DF","attrDes":"DF","caps":9,"lineups":6,"goal":1,"age":20,"number":84,"height":0,"ename":"Ole Kristian Enersen"},
+  {"name":"杰克","nation":"尼日利亚","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":10,"lineups":6,"goal":2,"age":24,"number":6,"height":187,"ename":"Jack Ipalibo"},
+  {"name":"斯特内维克","nation":"挪威","stats":65,"position":["LM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":11,"lineups":10,"assist":2,"age":22,"number":7,"height":185,"ename":"Halldor Stenevik"},
+  {"name":"约翰·霍夫","club":"挪威U21","nation":"挪威","stats":70,"position":["CAM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":12,"lineups":12,"goal":6,"assist":2,"age":22,"number":8,"height":177,"ename":"Johan Hove","description":"中场超新星"},
+  {"name":"斯腾格尔","nation":"挪威","stats":69,"position":["CDM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":12,"lineups":12,"goal":1,"assist":2,"age":27,"number":10,"height":180,"ename":"Herman Stengel"},
+  {"name":"托克斯塔","nation":"挪威","stats":63,"position":["RM"],"staff":"MF","attr":"MF","attrDes":"MF","caps":11,"lineups":3,"goal":1,"age":31,"number":11,"height":185,"ename":"Kristoffer Tokstad","description":"替补"},
+  {"name":"托比亚斯·古利克森","nation":"挪威","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":10,"lineups":5,"assist":1,"age":19,"number":17,"height":177,"ename":"Tobias Fjeld Gulliksen"},
+  {"name":"克拉斯尼奇","nation":"科索沃","stats":0,"position":[""],"staff":"MF","attr":"MF","attrDes":"MF","caps":10,"lineups":5,"age":22,"number":92,"height":183,"ename":"Kreshnik Krasniqi"},
+  {"name":"弗雷迪","nation":"尼日利亚","stats":67,"position":["ST"],"staff":"FW","attr":"FW","attrDes":"FW","caps":11,"lineups":4,"goal":2,"age":27,"number":9,"height":187,"ename":"Fred Friday"},
+  {"name":"萨尔维森","nation":"挪威","stats":0,"position":[""],"staff":"FW","attr":"FW","attrDes":"FW","caps":12,"lineups":9,"goal":5,"assist":3,"age":26,"number":88,"height":186,"ename":"Lars-Jorgen Salvesen"}
+]

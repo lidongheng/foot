@@ -7,19 +7,19 @@ const leagueCode = '15'
 // 赛季
 const season = '2022'
 // 轮次
-const round = 20
+const round = 21
 // 主队
-const host = '金泉尚武'
+const host = '济州联队'
 // 客队
-const away = '济州联队'
+const away = '城南足球俱乐部'
 // 联赛
 const league = 'KLeague'
 // 主队阵型
-const hostFormations = ['4231']
+const hostFormations = ['343']
 // 客队阵型
 const awayFormations = ['343']
 // 亚盘拉力
-const yapan = away
+const yapan = host
 // 大小拉力
 const daxiao = '大'
 // 模块一：不常变动的数据
@@ -35,7 +35,7 @@ const start_urls = [
   `${BASE_URL}matchResult/${season}/s${leagueCode}_313.js?version=${dateFormat(new Date().getTime(), 'YYYYMMDDHH')}`,
   `${BASE_URL}letGoal/${season}/l${leagueCode}.js?flesh=${Math.random()}`,
   `${BASE_URL}bigSmall/${season}/bs${leagueCode}.js?flesh=${Math.random()}`,
-  'http://zq.titan007.com/analysis/2141233cn.htm'
+  'http://zq.titan007.com/analysis/2141240cn.htm'
 ]
 // 比赛补充时间
 const matchTimeAddObj = {
